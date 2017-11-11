@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/prec_inverse_4x4.cpp"
+		},
+		
+		{
+			"file" : "E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "BuildOfficial" ],
+		"name" : "prec_inverse_4x4_3"
+	}
+}

@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/geo_quaternion.cpp"
+		},
+		
+		{
+			"file" : "E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "BuildOfficial" ],
+		"name" : "geo_quaternion_2"
+	}
+}

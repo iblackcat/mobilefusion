@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\CMakeLists.txt" />
+    <CustomBuild Include="E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\CMakeFiles\44362692fb3847a26a732530925302a1\doc-eigen-prerequisites.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\CMakeFiles\doc-eigen-prerequisites" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6402C0A0-E42B-4CC4-8D5A-15AE243CE76A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

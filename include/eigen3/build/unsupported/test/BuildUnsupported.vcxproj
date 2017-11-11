@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{77A3D9D3-35FB-475F-9F00-5BF3C6ECE7A2}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>BuildUnsupported</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\..\..\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\..\..\unsupported;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\..\..\Eigen;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\..\..\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\..\..\unsupported;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\..\..\Eigen;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\..\..\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\..\..\unsupported;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\..\..\Eigen;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\..\..\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\..\..\unsupported;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\..\..\Eigen;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/unsupported/test/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindGoogleHash.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindAdolc.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindMPFR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindGMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindFFTW.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindGLEW.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/unsupported/test/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindGoogleHash.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindAdolc.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindMPFR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindGMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindFFTW.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindGLEW.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/unsupported/test/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindGoogleHash.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindAdolc.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindMPFR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindGMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindFFTW.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindGLEW.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/unsupported/test/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindGoogleHash.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindAdolc.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindMPFR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindGMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindFFTW.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindGLEW.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/BVH_1.vcxproj">
+      <Project>5C51950A-B5BD-49DE-AB32-4BC443C951C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/BVH_2.vcxproj">
+      <Project>7982D92F-F343-48E3-94BB-4C36837A4629</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/BVH_3.vcxproj">
+      <Project>A0531926-5A16-45FF-A352-8DD9EA37FD55</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/FFT.vcxproj">
+      <Project>0CA81511-2826-4886-8F02-E961B6879177</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/NonLinearOptimization.vcxproj">
+      <Project>524181B5-E703-4678-A649-BB30371122DE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/NumericalDiff.vcxproj">
+      <Project>A9AEBD1E-CDD3-4B2A-AB33-8AD94E2AB6A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/ZERO_CHECK.vcxproj">
+      <Project>580D0ECD-03D7-46F0-A464-0696014F60AC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/alignedvector3.vcxproj">
+      <Project>FC72C3AF-38E0-4B30-9A02-94E9D7442652</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/autodiff_1.vcxproj">
+      <Project>1A40B34A-FDD6-4A99-B7E6-8F7509BD9141</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/autodiff_2.vcxproj">
+      <Project>863EBE3E-91C1-4B7A-8FEB-B8280DCB4497</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/autodiff_3.vcxproj">
+      <Project>8A90F77D-20EE-4973-8B07-43078D3109AA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_1.vcxproj">
+      <Project>6AA61AB2-1DFF-4B37-BE54-C8F63E696469</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_11.vcxproj">
+      <Project>049E5522-0776-431E-A2E4-B67A85250BD8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_13.vcxproj">
+      <Project>6FF1160B-2B3D-4883-BFDF-F4A024C0348B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_14.vcxproj">
+      <Project>990B3746-49A5-434A-952F-1EA2D31B10FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_15.vcxproj">
+      <Project>42892784-D01C-4B65-8FF1-1CD568287DD6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_16.vcxproj">
+      <Project>3E931F9E-BEB3-4B28-A88F-E68E95B19C6F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_17.vcxproj">
+      <Project>D507B6A2-2861-44C3-B286-67322A7C4D03</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_18.vcxproj">
+      <Project>F6D046BC-8ECB-4772-831B-F19770201B53</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_2.vcxproj">
+      <Project>FE8DD443-A77E-4796-A001-596806CF4B82</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_3.vcxproj">
+      <Project>7D0D56E6-79B9-4898-BA2B-688D75F012DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_4.vcxproj">
+      <Project>B65C0A5F-2FBD-4FA5-9888-2C7B7ED66F95</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_5.vcxproj">
+      <Project>64EF441B-1C06-4212-BCF8-FC87014A9DE9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_7.vcxproj">
+      <Project>50DBB392-2BDF-40BA-998D-A873C1E699D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/bdcsvd_8.vcxproj">
+      <Project>B8C90329-06B9-4720-ACA6-4B0BAC179A7C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/gmres_1.vcxproj">
+      <Project>43548312-D7D6-44CD-88E5-BD46A9EA39F5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/gmres_2.vcxproj">
+      <Project>9B3DEAC3-2AAD-4FBC-8696-71BCBB5447D8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/kronecker_product.vcxproj">
+      <Project>87F67D3D-41E6-4AE6-A844-6BD5FD7B39A5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/levenberg_marquardt.vcxproj">
+      <Project>305CA962-A5D8-49D6-A67F-0B6D5A9683CC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_exponential_1.vcxproj">
+      <Project>C1497E36-78D5-48E6-86C4-E3030FD89868</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_exponential_2.vcxproj">
+      <Project>C7735F06-7830-438D-8475-61C4EE11E582</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_exponential_3.vcxproj">
+      <Project>D270A7A3-D3A1-4D4E-B729-5A517FC22295</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_exponential_4.vcxproj">
+      <Project>1D36CB8F-B84B-4EF0-B7DF-9F8AD01FD0FA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_exponential_5.vcxproj">
+      <Project>B71239E0-3581-4603-8942-4E565F295107</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_exponential_6.vcxproj">
+      <Project>0919F613-EC09-41F7-BA32-201E08B0CD8A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_exponential_7.vcxproj">
+      <Project>6465DC17-7AFB-40D5-8864-7BE9E47FEAEB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_exponential_8.vcxproj">
+      <Project>69DC85EE-D426-4DB1-B054-C52149D2F746</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_exponential_9.vcxproj">
+      <Project>22115B86-BFC9-4FC2-AEE6-D7F42EF0EF9E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_function_1.vcxproj">
+      <Project>15629AA1-D92E-437E-A022-8FCB386E71E1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_function_2.vcxproj">
+      <Project>9ECA4744-D3C7-40A3-A7E8-FA50D5291F1D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_function_3.vcxproj">
+      <Project>090C54C0-8B0C-498A-B722-F07420E58508</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_function_4.vcxproj">
+      <Project>A42E82BE-4646-4111-AF22-6594294F783C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_function_5.vcxproj">
+      <Project>7AEF1B47-98D6-4741-8D86-13F4513AE3F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_function_6.vcxproj">
+      <Project>854A091B-708E-445B-87D7-B6C2E0884547</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_function_7.vcxproj">
+      <Project>A152F2FE-D676-4677-BBD6-8DB3A9B04BC3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_power_1.vcxproj">
+      <Project>40F5B8D4-F1AF-4AF3-B8AC-FEBC0788949F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_power_2.vcxproj">
+      <Project>3005EE45-D90E-4B91-8FAD-CA77E1F8C4A4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_power_3.vcxproj">
+      <Project>8DB2D062-45A0-4CED-B10D-A7919659ABB6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_power_4.vcxproj">
+      <Project>F21D1E25-3B27-495D-9BAE-A418FE3E53EA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_power_5.vcxproj">
+      <Project>390429A3-DCDA-43C9-BA9B-0E5799C54EC1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_power_6.vcxproj">
+      <Project>91EA96E6-4110-4054-AAB8-469EAC1FACA0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_power_7.vcxproj">
+      <Project>6FEC1F16-A82B-438F-9540-B764AD963DF4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_power_8.vcxproj">
+      <Project>682EB2C4-F381-4ECB-9D1F-86D9CF80C0A3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_power_9.vcxproj">
+      <Project>AC18C1C1-F9A4-42EB-938C-8AE16F3E53F9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_square_root_1.vcxproj">
+      <Project>9A233E37-83F2-4EAC-8526-092B3E4C6988</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_square_root_2.vcxproj">
+      <Project>69A4EE23-683F-4986-B7E8-DE2DB90ACDD6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_square_root_3.vcxproj">
+      <Project>8DBA0F9F-AB61-4E8E-A6CD-005A7A0D8EB9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_square_root_4.vcxproj">
+      <Project>C18E9272-0AEF-4B74-9247-13D3481D2BBB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/matrix_square_root_5.vcxproj">
+      <Project>90EAE950-A503-4068-8076-98A21FD195C0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/minres_1.vcxproj">
+      <Project>A559EAA6-80E9-45DC-8D0A-04DCFA478EC9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/minres_2.vcxproj">
+      <Project>DEE333BF-A412-4FE2-9B77-5287EC675AB8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialsolver_1.vcxproj">
+      <Project>87D62390-A5B0-40AF-A0D5-3328C84D2DC9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialsolver_10.vcxproj">
+      <Project>23A4CB2C-856A-43E0-AB48-82511ABE5FD6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialsolver_2.vcxproj">
+      <Project>DC19CE45-FA5C-4D51-9227-4ADE2DA05BA7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialsolver_3.vcxproj">
+      <Project>BE4835B3-37C5-49E7-9A8A-24640178B205</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialsolver_4.vcxproj">
+      <Project>F8DB284F-E5AD-406E-AF6D-4CC4E3043348</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialsolver_5.vcxproj">
+      <Project>686304D4-2D8E-49A5-A815-2AAE4135FE12</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialsolver_6.vcxproj">
+      <Project>BFED5F46-B11C-4EFA-B46C-7E1AA3389AF2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialsolver_7.vcxproj">
+      <Project>1061B57E-8981-4240-B3D8-A01F41D3983A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialsolver_8.vcxproj">
+      <Project>A3047B77-2191-48A3-A4D1-B7C15E7B5A10</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialsolver_9.vcxproj">
+      <Project>2BF61E88-4A7E-4A97-BF4F-A8164E4AD1BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialutils_2.vcxproj">
+      <Project>793249B2-4236-4290-B0B2-8F2EEFFA339E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialutils_3.vcxproj">
+      <Project>37E1CD25-7E60-4386-870B-491C1335E280</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialutils_4.vcxproj">
+      <Project>420919EF-5947-4CAE-85A7-7DB8FB7B9E42</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialutils_5.vcxproj">
+      <Project>CDD4A64B-F355-4F7C-B1AF-464E977760DE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialutils_6.vcxproj">
+      <Project>43261F48-015C-42AF-88D3-CE72FE0F05AF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialutils_7.vcxproj">
+      <Project>44FE0C08-1DFA-4722-824B-58AC668EB02D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialutils_8.vcxproj">
+      <Project>063C0E46-6051-4C0F-81E0-E29B483709FA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/polynomialutils_9.vcxproj">
+      <Project>17063974-F4EC-40B9-911A-410B944BEAF3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/sparse_extra_1.vcxproj">
+      <Project>0C6BD7DA-F1B6-4D8B-9630-3151CE8F8E86</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/sparse_extra_2.vcxproj">
+      <Project>7AEBA9A7-9147-4882-838D-0F73B37CD587</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/sparse_extra_3.vcxproj">
+      <Project>33949E2C-E3CD-4458-8EEF-29CC81D7D3EA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/unsupported/test/splines.vcxproj">
+      <Project>A136C1D5-CA75-4C85-9B5A-E145307ADC62</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

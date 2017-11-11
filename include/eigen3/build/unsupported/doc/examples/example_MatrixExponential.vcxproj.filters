@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\doc\examples\MatrixExponential.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\doc\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4098889B-3936-442B-89D9-6A48C0A2DA92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

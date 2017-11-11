@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/unsupported/test/polynomialsolver.cpp"
+		},
+		
+		{
+			"file" : "E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/unsupported/test/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "BuildUnsupported" ],
+		"name" : "polynomialsolver_6"
+	}
+}

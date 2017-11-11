@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/stable_norm.cpp"
+		},
+		
+		{
+			"file" : "E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "BuildOfficial" ],
+		"name" : "stable_norm_4"
+	}
+}

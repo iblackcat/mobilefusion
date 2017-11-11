@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6D4BCAD6-EFFE-4804-8EA8-864F8C49FD44}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>all_snippets</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\snippets;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\snippets;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\snippets;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\snippets;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\snippets\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/snippets/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\snippets\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/snippets/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\snippets\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/snippets/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\snippets\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/snippets/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\compile_snippet.cpp.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\snippets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/ZERO_CHECK.vcxproj">
+      <Project>580D0ECD-03D7-46F0-A464-0696014F60AC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_AngleAxis_mimic_euler.vcxproj">
+      <Project>097E0250-2685-4024-AA90-A136C66715E1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_ColPivHouseholderQR_solve.vcxproj">
+      <Project>3A6287E8-D077-4E27-AABA-95DBAC32C98D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_ComplexEigenSolver_compute.vcxproj">
+      <Project>93E75D22-CCB9-4EA1-8379-FDB31F020EDD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_ComplexEigenSolver_eigenvalues.vcxproj">
+      <Project>D6339A82-0E24-417F-85AD-11A963C097D1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_ComplexEigenSolver_eigenvectors.vcxproj">
+      <Project>B8F0FCA2-706B-445B-B43E-128F0969D249</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_ComplexSchur_compute.vcxproj">
+      <Project>94D9186C-73B9-4DE2-A2DF-AAEDA3E4FE8E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_ComplexSchur_matrixT.vcxproj">
+      <Project>02FD7D25-1F06-4991-B955-F09D72568BC6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_ComplexSchur_matrixU.vcxproj">
+      <Project>5E238780-40C9-4276-A199-DDE744B5DA29</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_abs.vcxproj">
+      <Project>B3B8601E-4C28-47F8-BA70-D2ECED5D2589</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_abs2.vcxproj">
+      <Project>C44D449C-947B-4079-A71A-73890B0A9F29</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_acos.vcxproj">
+      <Project>148FF8A0-FA06-4D21-B03B-5F5FD3446CF4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_asin.vcxproj">
+      <Project>7D0D638D-F3C5-4365-B4DD-C2C609B2D71E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_boolean_and.vcxproj">
+      <Project>3963955E-0E32-4482-83B1-0143D0ADB938</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_boolean_or.vcxproj">
+      <Project>94C98FCB-B94C-419F-B021-54B94F633EF2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_cos.vcxproj">
+      <Project>D2F57F2E-E43A-405A-9EC6-9E56DFD3FCA4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_cube.vcxproj">
+      <Project>7446D35D-433D-45A7-BA3B-91B0946BEBAA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_equal_equal.vcxproj">
+      <Project>ECF681F6-074E-4AA5-987E-7F8D7F9B92A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_exp.vcxproj">
+      <Project>2460DFD3-8A3F-467A-ACBD-3E5474B4FF38</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_greater.vcxproj">
+      <Project>5475DD59-0BBD-4E5A-A730-DD017529C4F3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_greater_equal.vcxproj">
+      <Project>644C093B-C8D9-4B82-A086-F597FA9EBA7C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_inverse.vcxproj">
+      <Project>E0238683-721C-4A23-B99B-55FE834F38A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_less.vcxproj">
+      <Project>5FE12491-32AC-44D0-8A80-FE0DB7062A32</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_less_equal.vcxproj">
+      <Project>D657E2C3-7BDD-459C-BDD5-EB564C1EB5F3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_log.vcxproj">
+      <Project>EA15FBAD-176B-4D61-A243-47C732E19F06</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_max.vcxproj">
+      <Project>DFE91557-BCF8-44A3-ABF0-C15CA855EAAE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_min.vcxproj">
+      <Project>E65BB6AD-94C4-4716-AFAD-06C0275859E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_minus.vcxproj">
+      <Project>5783A12A-E3AF-4879-9F1B-07DC2B4E3760</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_minus_equal.vcxproj">
+      <Project>4E370B46-2FC7-466F-AF7F-76D6A268E779</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_not_equal.vcxproj">
+      <Project>0BED0ABC-AB43-4C40-9F98-7350CD0D4415</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_plus.vcxproj">
+      <Project>26E5412E-244E-46C5-8390-0384CFDA068E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_plus_equal.vcxproj">
+      <Project>EEFD78E2-B631-443D-B1F5-C7543A4A8AEB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_pow.vcxproj">
+      <Project>C05F3751-E69F-49A1-BF1C-97598B81483B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_product.vcxproj">
+      <Project>199FAFDA-64A0-42F9-A4A5-E57D8EACD4D1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_quotient.vcxproj">
+      <Project>9E3ACD2D-E708-40FB-A5C2-F3D231CD57C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_sin.vcxproj">
+      <Project>EDA9EC1E-4AD5-4E7D-8F3C-53AAE06084A4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_slash_equal.vcxproj">
+      <Project>5A6F24C6-BAC5-4E95-AE0D-C36B55812316</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_sqrt.vcxproj">
+      <Project>89F23F0B-078F-44A3-B461-8B61C1DBE17E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_square.vcxproj">
+      <Project>E0E21A65-B994-47AA-8ECE-C6175EE9EA61</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_tan.vcxproj">
+      <Project>FA738977-18DB-4236-A7BB-C1A883F40030</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Cwise_times_equal.vcxproj">
+      <Project>67479D29-140E-4A81-B235-EF2A901D13D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_DenseBase_LinSpaced.vcxproj">
+      <Project>0E8AD92E-5AB3-44BE-8B24-A9BEA396DBF3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_DenseBase_LinSpaced_seq.vcxproj">
+      <Project>5C9606C0-BF89-420B-80E3-8EF09F526D0D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_DenseBase_setLinSpaced.vcxproj">
+      <Project>8C32D22F-646C-46A7-8D82-3FD4D6833EB5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_DirectionWise_replicate.vcxproj">
+      <Project>7FA095FC-5BA2-4D60-80FC-00E6367B77E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_DirectionWise_replicate_int.vcxproj">
+      <Project>6FAF3E68-584E-4302-BD50-554B2498871B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_EigenSolver_EigenSolver_MatrixType.vcxproj">
+      <Project>5DA67DB3-2A47-46D3-AAE9-D0B8BF6D8A5B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_EigenSolver_compute.vcxproj">
+      <Project>6E6E6C34-6DBF-481A-96D1-E2AA88B98C20</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_EigenSolver_eigenvalues.vcxproj">
+      <Project>EF3EEF01-CAE2-4FFA-84B4-63AC42F44E23</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_EigenSolver_eigenvectors.vcxproj">
+      <Project>D7923762-0DB6-4AA2-BA69-4FB12CE47A21</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_EigenSolver_pseudoEigenvectors.vcxproj">
+      <Project>2D5C5ADC-4A38-414B-B46D-BE5B1B75F13D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_FullPivHouseholderQR_solve.vcxproj">
+      <Project>E2799D17-27BE-454D-802C-DAD0F6676AC1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_FullPivLU_image.vcxproj">
+      <Project>5A943D76-3FED-44BA-BCA7-51F8173CC681</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_FullPivLU_kernel.vcxproj">
+      <Project>BB3C34D4-1773-47F5-91EF-1D5495347954</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_FullPivLU_solve.vcxproj">
+      <Project>56FE18E4-F417-4706-A748-9911199E07E1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_GeneralizedEigenSolver.vcxproj">
+      <Project>FE2B6C73-ED2B-4917-9A87-F3CCD167472A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_HessenbergDecomposition_compute.vcxproj">
+      <Project>7FBAE05B-2E0A-4D7F-817B-F6E757400DC9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_HessenbergDecomposition_matrixH.vcxproj">
+      <Project>A64D8140-9E71-45F5-BE22-6317A1190A02</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_HessenbergDecomposition_packedMatrix.vcxproj">
+      <Project>7A585BE8-0DFF-440E-98BC-0BCCB1818BE6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_HouseholderQR_householderQ.vcxproj">
+      <Project>0DF8E1E5-F6B3-4F3E-9600-8AC6FA3FCD0C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_HouseholderQR_solve.vcxproj">
+      <Project>69B996BF-7D23-4DB2-884A-0D2DD23B0327</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_HouseholderSequence_HouseholderSequence.vcxproj">
+      <Project>E9241991-D2BB-4BB8-9816-EF53FB201CF6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_IOFormat.vcxproj">
+      <Project>BE9C6F9B-6EAB-4FBE-B505-14D21F7E33CD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_JacobiSVD_basic.vcxproj">
+      <Project>ED56297A-064A-4B63-A573-917A0085D843</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Jacobi_makeGivens.vcxproj">
+      <Project>B7074367-385D-4729-8365-4FAB6EE6E7D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Jacobi_makeJacobi.vcxproj">
+      <Project>3E86436F-0440-49B1-9061-14F5C4F1DA55</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_LLT_example.vcxproj">
+      <Project>2F1DBAE7-2D6E-4619-9C22-896E43C0179F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_LLT_solve.vcxproj">
+      <Project>AC858336-0966-4E50-9682-48FEBDBCC436</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Map_general_stride.vcxproj">
+      <Project>D4C59958-7715-41A2-954D-842F14D17733</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Map_inner_stride.vcxproj">
+      <Project>5B154B2D-98AE-4C38-A1CF-9F280D0C966E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Map_outer_stride.vcxproj">
+      <Project>46F23BCF-4E40-4F53-AEAB-22881EA39C3E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Map_placement_new.vcxproj">
+      <Project>22B69B00-2840-412E-92D4-C441C5B08925</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Map_simple.vcxproj">
+      <Project>1567E2AD-0A97-4F9F-99B1-A1B05BFA0728</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_adjoint.vcxproj">
+      <Project>7515714B-ED72-4BAB-8157-5CAA77259DD4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_all.vcxproj">
+      <Project>065D91A3-BA6D-4FBA-B908-349550E211BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_applyOnTheLeft.vcxproj">
+      <Project>39BD9D98-4DE1-4C34-AB7B-0CFC3DCF5DF1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_applyOnTheRight.vcxproj">
+      <Project>77C26B8B-BCE6-4DC5-AAF2-CB7F38AE67FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_array.vcxproj">
+      <Project>1010FC6E-0560-4170-8C75-3202F5286B6F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_array_const.vcxproj">
+      <Project>744AD074-78AD-4048-B3A3-98EFAD05E1FA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_asDiagonal.vcxproj">
+      <Project>9CC73B02-9026-41C5-B3CE-823BD3398CD1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_block_int_int.vcxproj">
+      <Project>E5E50B8A-61B4-45FA-B7D0-4EC130B4DC63</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_block_int_int_int_int.vcxproj">
+      <Project>F7A30DE7-84A7-4C6E-B100-F4ECBEBBBC76</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_bottomLeftCorner_int_int.vcxproj">
+      <Project>637A28AB-3BF7-4A63-A71D-6D35A6330E6E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_bottomRightCorner_int_int.vcxproj">
+      <Project>970360A7-BFB6-45E4-B037-6C0EC6284D8E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_bottomRows_int.vcxproj">
+      <Project>A8FC9AB5-A2DE-4A31-92F6-C9885FC963BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_cast.vcxproj">
+      <Project>F824AA24-252C-474B-822B-62CBC8F94466</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_col.vcxproj">
+      <Project>9481C05A-4C53-4986-A936-7FF68BD0CCED</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_colwise.vcxproj">
+      <Project>CD02738D-63B1-4F8A-97B5-FFE272EE7347</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_computeInverseAndDetWithCheck.vcxproj">
+      <Project>10377EAA-F885-48B9-9A97-EDC5265422CE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_computeInverseWithCheck.vcxproj">
+      <Project>9B158780-B1DD-44A0-97E9-07D8E0244147</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_cwiseAbs.vcxproj">
+      <Project>5ED9E60F-7DD5-4154-B98E-E4C26FA11DA5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_cwiseAbs2.vcxproj">
+      <Project>E6A32478-89FE-46B1-A497-6526D68CB83B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_cwiseEqual.vcxproj">
+      <Project>53ACC627-5C2B-48B4-9112-7FEB6C9D24C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_cwiseInverse.vcxproj">
+      <Project>54A5EC67-108F-4190-93F1-4B9894ABC12E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_cwiseMax.vcxproj">
+      <Project>58524241-5067-41D6-A04C-3E6325A9F66B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_cwiseMin.vcxproj">
+      <Project>EBB8571B-5B81-4F81-97AD-AEBFF030BBD8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_cwiseNotEqual.vcxproj">
+      <Project>120192FF-09B4-4CC5-8021-50E14E6F2611</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_cwiseProduct.vcxproj">
+      <Project>5C9CA823-6AE5-4C7D-8203-6787CCB85485</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_cwiseQuotient.vcxproj">
+      <Project>A7E5C31B-5806-4C4A-9DF3-D0CCECC7ED2B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_cwiseSqrt.vcxproj">
+      <Project>02D24401-A36F-4491-8FBA-652EF2DD7B68</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_diagonal.vcxproj">
+      <Project>2AA55837-A015-4023-A5AB-343144B5D88F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_diagonal_int.vcxproj">
+      <Project>A8E77C15-547F-427F-A4BC-1D2C80930C10</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_diagonal_template_int.vcxproj">
+      <Project>9ACE89F1-57C2-4219-A0ED-9E704CD36D3C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_eigenvalues.vcxproj">
+      <Project>22FB3B8C-E87F-43D0-817B-A3A09FA06324</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_end_int.vcxproj">
+      <Project>3DF1F774-BA78-4F77-B8FA-F82242ADE2B9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_eval.vcxproj">
+      <Project>58269C2D-EB83-4FF3-B4E9-394C8A002218</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_extract.vcxproj">
+      <Project>0B5608AE-758B-41BB-90FA-1A6DB18F8D17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_fixedBlock_int_int.vcxproj">
+      <Project>5B86A701-6E3A-46D3-B7EB-9517861D9C65</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_identity.vcxproj">
+      <Project>64C70180-956F-49C0-AA9C-ED86C4F1CC05</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_identity_int_int.vcxproj">
+      <Project>17F2EA3E-5B60-4B3D-A222-A349E225B90D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_inverse.vcxproj">
+      <Project>9DF85CF6-4A88-42CF-9308-7792B2E2C970</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_isDiagonal.vcxproj">
+      <Project>AAD054D7-8867-4819-844E-60F198894CA9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_isIdentity.vcxproj">
+      <Project>47F4E362-5036-4654-AB75-ABC088BB9FB3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_isOnes.vcxproj">
+      <Project>DD831E59-3988-4D29-9B6F-39CA805E9D4C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_isOrthogonal.vcxproj">
+      <Project>65223593-6DBD-4E3E-984C-E6439AD45979</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_isUnitary.vcxproj">
+      <Project>C73DDBFA-3767-4E79-AFF3-EDE8258B57CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_isZero.vcxproj">
+      <Project>2F851E8F-3E75-4FA1-BEA5-B3471AF6E39B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_leftCols_int.vcxproj">
+      <Project>25C5418B-49BE-4E98-AC39-630D14B4682B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_marked.vcxproj">
+      <Project>B6D6F7D0-78DB-43EC-919F-BF441725427A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_noalias.vcxproj">
+      <Project>B8824E4C-6DAD-4CD7-ADA9-9CC6A6DB1C7B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_ones.vcxproj">
+      <Project>40E7A8A1-7BE1-4D03-AD37-4D4FBAFB868B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_ones_int.vcxproj">
+      <Project>A731D16E-0A05-4644-9FBA-BFECB7A5B16B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_ones_int_int.vcxproj">
+      <Project>F6CB1B08-10A8-4D27-9136-2E066F26A9B4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_operatorNorm.vcxproj">
+      <Project>A18B0B01-D9C5-45D9-B5A5-9CCB0EBA19A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_part.vcxproj">
+      <Project>B840AA9E-501E-46C1-A3CB-B62E524831FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_prod.vcxproj">
+      <Project>1D95862F-69E4-4C83-9409-106F3C03A47D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_random.vcxproj">
+      <Project>B869A6C5-9E75-4300-9993-3DEB91D4F1F9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_random_int.vcxproj">
+      <Project>D008B3D5-A2D4-48B4-8630-0E742A3CA887</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_random_int_int.vcxproj">
+      <Project>CFE51005-0749-4E86-ADEB-B270B03517A3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_replicate.vcxproj">
+      <Project>7B2A78DE-1B34-46D3-8B67-FC952E9DFA5B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_replicate_int_int.vcxproj">
+      <Project>313FFC4F-B874-4A8B-AD90-FC39CD4EB739</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_reverse.vcxproj">
+      <Project>31E475D2-B67C-45AC-858F-3BB9793F9C92</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_rightCols_int.vcxproj">
+      <Project>BA05DDB8-0165-4EE8-BF15-717663B0B865</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_row.vcxproj">
+      <Project>23073738-1376-4589-A9E2-C59B19C481C0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_rowwise.vcxproj">
+      <Project>692A2889-C10A-4C89-8FDB-F667A3E8B5FD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_segment_int_int.vcxproj">
+      <Project>968A55F7-FAFD-4DAB-BB2C-154E09DB30EC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_select.vcxproj">
+      <Project>222910F9-AA5F-4F50-A38A-250D4D45E131</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_set.vcxproj">
+      <Project>CC85815B-E753-435D-A066-B6F3734C4D16</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_setIdentity.vcxproj">
+      <Project>F9756937-1F3E-429F-9809-0627160B3DFD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_setOnes.vcxproj">
+      <Project>3D663D7F-E2AF-4A4D-8AD5-EBC078BD226A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_setRandom.vcxproj">
+      <Project>6401E723-FEA1-4E4E-A87C-4A824B73CFFC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_setZero.vcxproj">
+      <Project>289B6820-F48E-4541-9E38-FB94B0D02E57</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_start_int.vcxproj">
+      <Project>3B84F67B-EF74-4B06-A99B-9C5EDB77B3F8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_bottomRows.vcxproj">
+      <Project>6EFD0C99-5049-4127-9A8D-3BD3FD58E6D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_end.vcxproj">
+      <Project>68B57ECD-96AE-42DE-8386-2224C91BA2CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_int_block_int_int_int_int.vcxproj">
+      <Project>E705A305-FB31-4C54-ADDD-24172D5A5427</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_int_bottomLeftCorner.vcxproj">
+      <Project>BE770CD2-D3C8-4F68-90B9-8EE8FEA94C54</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_int_bottomLeftCorner_int_int.vcxproj">
+      <Project>FA7E17AC-D4B7-43CB-A5DF-EC65BE205B7B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_int_bottomRightCorner.vcxproj">
+      <Project>8D0F9E2E-43F8-4CBB-A99C-F60B222C3FA4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_int_bottomRightCorner_int_int.vcxproj">
+      <Project>27D83940-12AA-49F2-AE07-13E7D6FB8EB3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_int_topLeftCorner.vcxproj">
+      <Project>3D4E5375-15A5-4EAC-8FBA-4BDBDFDC36E2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_int_topLeftCorner_int_int.vcxproj">
+      <Project>46F4676F-DB6E-4C1F-9DFD-E75A799BFFF0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_int_topRightCorner.vcxproj">
+      <Project>97BA110C-F6A8-46CE-B7EB-5B0953A9A422</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_int_topRightCorner_int_int.vcxproj">
+      <Project>5A64A29D-2400-4D4A-8EF0-D1D590B8E67F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_leftCols.vcxproj">
+      <Project>6BFEF5F7-1D47-486C-9F0E-88CC6E8FC369</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_rightCols.vcxproj">
+      <Project>A374CBCF-F4B6-4485-B535-BC02B490B604</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_segment.vcxproj">
+      <Project>DC86C92E-B571-4DA6-B13E-F8A471A1F4E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_start.vcxproj">
+      <Project>E2331504-81E8-4FC3-BA73-EBA83C4B3130</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_template_int_topRows.vcxproj">
+      <Project>B3932DDE-2CB1-4E88-BF8D-D27992511358</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_topLeftCorner_int_int.vcxproj">
+      <Project>7992171E-1571-4368-8DD9-AC419E841E66</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_topRightCorner_int_int.vcxproj">
+      <Project>0974D6D7-2773-4FA1-AABC-ECF4496A0010</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_topRows_int.vcxproj">
+      <Project>78C66635-5771-4406-8178-1D4DE2B46142</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_transpose.vcxproj">
+      <Project>028AD433-F9E8-4162-9336-915A87BE3A1A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_zero.vcxproj">
+      <Project>DEFD111D-05E9-456E-89B4-A8235E26EB31</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_zero_int.vcxproj">
+      <Project>B5FC108A-3BCA-4A40-8408-E951693153D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_MatrixBase_zero_int_int.vcxproj">
+      <Project>E7901062-5DA5-4810-B500-DFBA53AF9F69</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_resize_NoChange_int.vcxproj">
+      <Project>E19E43E5-27ED-4CEB-A357-E3CA32F1BD4D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_resize_int.vcxproj">
+      <Project>D028118B-DAE3-4DC0-89B2-F6E73F1C4DAE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_resize_int_NoChange.vcxproj">
+      <Project>6E7F72BB-C728-4875-8896-EAF0B613FF6B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_resize_int_int.vcxproj">
+      <Project>B17D013E-84DF-4EFE-84F6-00F0BF6DCB41</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_setConstant_int.vcxproj">
+      <Project>8B1A4F0B-A340-437E-895B-CB5250110559</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_setConstant_int_int.vcxproj">
+      <Project>17EF382D-173E-4779-AA85-F218A406EC62</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_setIdentity_int_int.vcxproj">
+      <Project>FFE2CE34-0D63-4080-A033-FF1DF844FCCD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_setOnes_int.vcxproj">
+      <Project>8E0E6C7B-D6FE-4344-86A6-A0DB933B7AE7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_setOnes_int_int.vcxproj">
+      <Project>81E2E112-B619-42D2-BF06-E996B51907BD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_setRandom_int.vcxproj">
+      <Project>A1D0F585-BFC0-40F4-A992-5842B840D269</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_setRandom_int_int.vcxproj">
+      <Project>A8285B30-1F49-43CD-A741-522410706F98</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_setZero_int.vcxproj">
+      <Project>BEADCB6F-0C66-4E9D-A883-C936D06097CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Matrix_setZero_int_int.vcxproj">
+      <Project>F52B92F2-9674-4A8E-B4B1-7B0D1F292F47</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_PartialPivLU_solve.vcxproj">
+      <Project>CAC5837D-9A68-4E53-8241-96C5B03F0340</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_PartialRedux_count.vcxproj">
+      <Project>95A5797D-696A-4193-AE52-F1EAC1D9FA10</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_PartialRedux_maxCoeff.vcxproj">
+      <Project>343A1D7C-7CD4-4289-AF5E-087F51CDD576</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_PartialRedux_minCoeff.vcxproj">
+      <Project>13560BC8-B78F-4B7E-9C92-020A9D954FFD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_PartialRedux_norm.vcxproj">
+      <Project>3F846916-06AF-4AAF-B43A-CB5A59449A80</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_PartialRedux_prod.vcxproj">
+      <Project>601DE0B1-02E7-483F-AE5D-3A0D55ECA67E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_PartialRedux_squaredNorm.vcxproj">
+      <Project>58EA4C82-F087-4735-96C8-962D6482348F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_PartialRedux_sum.vcxproj">
+      <Project>37B3A01E-4D9E-4AD6-8E6C-B554EF07C944</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_RealQZ_compute.vcxproj">
+      <Project>A4F05D30-3EC2-472F-AA31-95058B1139BD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_RealSchur_RealSchur_MatrixType.vcxproj">
+      <Project>5BF2022E-6E94-487C-985B-E191713829CC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_RealSchur_compute.vcxproj">
+      <Project>C2F4051D-1BB4-4640-A1B6-EFD8CB459C8F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver.vcxproj">
+      <Project>00A81791-906E-4D79-A6F7-50898753144D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.vcxproj">
+      <Project>DDCA621B-1982-44B9-98E2-08A1B87C97DD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.vcxproj">
+      <Project>5478F0C8-82D9-4B6E-A7FD-DEDCFFB2ED6E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_SelfAdjointEigenSolver_compute_MatrixType.vcxproj">
+      <Project>AFEFA724-8F0E-4AF0-8D43-64EA2B066C1A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_SelfAdjointEigenSolver_compute_MatrixType2.vcxproj">
+      <Project>DD817FCE-CACA-43F3-8BDA-54716F85D9BA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_SelfAdjointEigenSolver_eigenvalues.vcxproj">
+      <Project>728FE003-FEC8-4D61-AA0C-1227D5678425</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_SelfAdjointEigenSolver_eigenvectors.vcxproj">
+      <Project>5D056931-E3BA-4194-968D-0CF6B1FAF04F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_SelfAdjointEigenSolver_operatorInverseSqrt.vcxproj">
+      <Project>451ECDAD-8014-4734-BE5A-8472F3C5BE79</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_SelfAdjointEigenSolver_operatorSqrt.vcxproj">
+      <Project>7305A634-71E5-4861-9696-50327BFE230A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_SelfAdjointView_eigenvalues.vcxproj">
+      <Project>33680856-7BEE-424D-8D52-DC95F50470D4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_SelfAdjointView_operatorNorm.vcxproj">
+      <Project>8DC59C2B-6EE4-4255-AFCE-2D7542D3A517</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_TopicAliasing_block.vcxproj">
+      <Project>2C52CE8D-47DC-4352-A5C4-59E11391BF5E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_TopicAliasing_block_correct.vcxproj">
+      <Project>C325319E-DCE1-4777-8C8E-FC0AC1104434</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_TopicAliasing_cwise.vcxproj">
+      <Project>AD8C8B25-4A40-4648-80FC-EBDEF2B81968</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_TopicAliasing_mult1.vcxproj">
+      <Project>B3D7063C-AB94-4EBA-B322-89E585F8A035</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_TopicAliasing_mult2.vcxproj">
+      <Project>3AEBC47F-0920-41BF-A546-2EC92FC252A2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_TopicAliasing_mult3.vcxproj">
+      <Project>5C9A3F65-1158-4EBF-AD02-538F1B0A8022</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_TopicStorageOrders_example.vcxproj">
+      <Project>5B19EA93-85F1-465E-A78F-0CAB48E9A452</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tridiagonalization_Tridiagonalization_MatrixType.vcxproj">
+      <Project>CABBBC1B-F36D-4384-B1B5-D17261718DA8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tridiagonalization_compute.vcxproj">
+      <Project>3C9FA7E5-EC3B-4214-A131-0FB90D0AECA5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tridiagonalization_decomposeInPlace.vcxproj">
+      <Project>E52DF157-233F-4A30-A62A-9539E00550B6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tridiagonalization_diagonal.vcxproj">
+      <Project>E6327791-9BB0-4802-AB83-3717AAB45E9C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tridiagonalization_householderCoefficients.vcxproj">
+      <Project>0DFDF8BE-1E45-4435-9FBF-C9FCB1402E2D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tridiagonalization_packedMatrix.vcxproj">
+      <Project>7D74A81B-3B1F-4AF4-967F-28D907834BA8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_AdvancedInitialization_Block.vcxproj">
+      <Project>EF31FBF8-077F-4805-A52B-4DBD1658B68F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary.vcxproj">
+      <Project>1172D9A9-8594-4F2E-A533-FDFE7B6187F4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_AdvancedInitialization_Join.vcxproj">
+      <Project>883FE333-CE9A-41B5-A67E-D9EC8FD3FDD6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_AdvancedInitialization_LinSpaced.vcxproj">
+      <Project>6877C767-D6E6-49AE-B852-E27D539097D2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_AdvancedInitialization_ThreeWays.vcxproj">
+      <Project>9315368C-ABEA-4071-BAA6-C171FB7956B8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_AdvancedInitialization_Zero.vcxproj">
+      <Project>27DB14EF-D16E-4B07-BCB2-78EA71AB1D1B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_Map_rowmajor.vcxproj">
+      <Project>9CC1074D-4919-4610-8615-D5AC3A961F95</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_Map_using.vcxproj">
+      <Project>CC43A6B4-22D7-4AD7-9A6B-5D46573B0DA3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_commainit_01.vcxproj">
+      <Project>01608003-71A7-4403-9A6E-048E58D83773</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_commainit_01b.vcxproj">
+      <Project>914B799A-9E6F-489C-8686-766CE227467A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_commainit_02.vcxproj">
+      <Project>48A29A8F-8C27-4F66-9289-FBBC269665FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_solve_matrix_inverse.vcxproj">
+      <Project>CFD1C570-87AE-4F48-B02E-83620406FAFB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_solve_multiple_rhs.vcxproj">
+      <Project>0980E495-EF04-43BB-B7D4-23F3AAF5E741</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_solve_reuse_decomposition.vcxproj">
+      <Project>37E4DDFE-B82C-476B-AC96-7EBE1F2FDECB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_solve_singular.vcxproj">
+      <Project>EEB057FB-522B-407C-8C76-D4827598AFDB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_solve_triangular.vcxproj">
+      <Project>6E48F440-B854-43C0-81B3-CFC5778E83F4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Tutorial_solve_triangular_inplace.vcxproj">
+      <Project>252CA7A6-2129-4C94-954C-6F3CEBE0151E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_Vectorwise_reverse.vcxproj">
+      <Project>4345009C-1047-450A-AA3B-513DFBF81331</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_class_FullPivLU.vcxproj">
+      <Project>D22D5B2A-5E24-4488-91E2-63DD2A2383C1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_tut_arithmetic_redux_minmax.vcxproj">
+      <Project>2EB7C3FC-9200-4C24-9081-972024FF7C59</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_tut_arithmetic_transpose_aliasing.vcxproj">
+      <Project>82DC4377-3884-410D-A247-4785FDCCF01F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_tut_arithmetic_transpose_conjugate.vcxproj">
+      <Project>9895700A-3354-424C-87F1-BDDAFEFEB005</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_tut_arithmetic_transpose_inplace.vcxproj">
+      <Project>2B995CC0-974A-43CC-A592-7B9576671754</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/snippets/compile_tut_matrix_assignment_resizing.vcxproj">
+      <Project>31E01177-7ED9-4D1B-97F5-886B4E80472F</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

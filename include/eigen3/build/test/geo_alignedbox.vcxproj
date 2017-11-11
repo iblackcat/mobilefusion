@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{21ADF6CA-814C-4881-9521-2F83AE4FB717}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>geo_alignedbox</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindCholmod.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindUmfpack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSuperLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindPastix.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindScotch.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindMetis.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSPQR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakePushCheckState.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindCholmod.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindUmfpack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSuperLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindPastix.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindScotch.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindMetis.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSPQR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakePushCheckState.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindCholmod.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindUmfpack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSuperLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindPastix.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindScotch.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindMetis.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSPQR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakePushCheckState.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindCholmod.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindUmfpack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSuperLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindPastix.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindScotch.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindMetis.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSPQR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakePushCheckState.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/ZERO_CHECK.vcxproj">
+      <Project>580D0ECD-03D7-46F0-A464-0696014F60AC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_1.vcxproj">
+      <Project>46C1462F-03F0-4467-965D-B275B496AB99</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_10.vcxproj">
+      <Project>D34967C6-7ECC-490E-81DE-A2D59E927FA1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_11.vcxproj">
+      <Project>87540FA0-9CE9-4CC3-83DA-6B3CF338F014</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_12.vcxproj">
+      <Project>37DFD624-821A-44D5-AC8E-8F6136740E0F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_13.vcxproj">
+      <Project>8B64E907-7342-49C5-B1C5-0F832C5EA507</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_14.vcxproj">
+      <Project>84706BE1-D376-4B38-B3E8-2B2E90C3611D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_2.vcxproj">
+      <Project>6498E015-40DA-4EFC-8F60-512DAD71B291</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_3.vcxproj">
+      <Project>C22B0BDB-A9BF-48E1-B98C-5702598415CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_4.vcxproj">
+      <Project>3AA14B60-F372-42CA-B292-31C35B23DEF5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_5.vcxproj">
+      <Project>25193F91-CA6B-4FA1-8C25-24C50BD9686F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_6.vcxproj">
+      <Project>28A153D9-89D8-40FD-8892-DC4FC3425018</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_7.vcxproj">
+      <Project>23BB603B-9B59-4C32-AB29-3DDF837B4971</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_8.vcxproj">
+      <Project>42AC40D7-5E87-46D6-B745-0279726F7037</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_9.vcxproj">
+      <Project>97EF5275-C9E5-4E3E-8813-FE548F0C226B</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

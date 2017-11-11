@@ -1,0 +1,1888 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{01E21015-A532-4FDD-9F54-3BCA4A7CBCAD}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>BuildOfficial</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindCholmod.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindUmfpack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSuperLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindPastix.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindScotch.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindMetis.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSPQR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakePushCheckState.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindCholmod.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindUmfpack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSuperLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindPastix.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindScotch.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindMetis.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSPQR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakePushCheckState.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindCholmod.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindUmfpack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSuperLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindPastix.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindScotch.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindMetis.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSPQR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakePushCheckState.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindCholmod.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindUmfpack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSuperLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindPastix.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindScotch.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindMetis.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\cmake\FindSPQR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakePushCheckState.cmake;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/ZERO_CHECK.vcxproj">
+      <Project>580D0ECD-03D7-46F0-A464-0696014F60AC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/adjoint_1.vcxproj">
+      <Project>16D80951-7902-4889-BDAA-242C4FA77304</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/adjoint_2.vcxproj">
+      <Project>C6C2126A-189F-4071-B0B1-719CCDF5BB1B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/adjoint_3.vcxproj">
+      <Project>31054310-391B-477D-8D5B-90B2816085DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/adjoint_4.vcxproj">
+      <Project>50C54350-A92F-449F-90A3-50D5CC69717F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/adjoint_5.vcxproj">
+      <Project>404139D5-A8B5-4A59-9B38-0E9A72903272</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/adjoint_6.vcxproj">
+      <Project>E7E5BCCA-F0EE-4149-894E-402E95E2B249</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/adjoint_7.vcxproj">
+      <Project>8D432ACE-19F9-41C9-8469-22D5BAADEB35</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_1.vcxproj">
+      <Project>D387461F-6B20-442B-84EB-D8B6C02D351B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_2.vcxproj">
+      <Project>FF606C2B-ACF9-411F-B704-F18A2866EE65</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_3.vcxproj">
+      <Project>C65ED276-AAB9-408F-9FEC-E02FCF700C59</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_4.vcxproj">
+      <Project>4B1BB123-FE45-483B-BDE1-8065D3CA4721</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_5.vcxproj">
+      <Project>7E097734-D860-4864-9C73-24EDD362B3FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_6.vcxproj">
+      <Project>C303425D-935E-4CFB-BF01-2522803EE5AA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_for_matrix_1.vcxproj">
+      <Project>C9109EE4-B40B-48B8-8778-A5F752468F0E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_for_matrix_2.vcxproj">
+      <Project>19C9AD45-FD91-4B1A-881E-EE4D961F0F72</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_for_matrix_3.vcxproj">
+      <Project>5909E27D-0FAB-4206-A672-24C1F7986C73</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_for_matrix_4.vcxproj">
+      <Project>9E505026-5244-49A0-9FF8-8674A77E02E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_for_matrix_5.vcxproj">
+      <Project>BA187690-7BBC-4509-A1BE-75CB2394D984</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_for_matrix_6.vcxproj">
+      <Project>D2DEBD99-897A-468C-AFBD-461EE95FF779</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_for_matrix_7.vcxproj">
+      <Project>6A6D413D-14EA-41DE-9DA4-F43D27584557</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_for_matrix_8.vcxproj">
+      <Project>B098963A-B6AF-4EBD-A722-CD5AC52F6775</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_replicate_1.vcxproj">
+      <Project>930DFFF0-7C95-4EF9-8471-1BEFDED0A5E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_replicate_2.vcxproj">
+      <Project>A8D37301-28D9-4B62-8491-FC7E9502B580</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_replicate_3.vcxproj">
+      <Project>FD2BB19C-2AAE-4B20-9D1A-5852F1217462</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_replicate_4.vcxproj">
+      <Project>D594A889-17B1-463B-BCB5-E169842721E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_replicate_5.vcxproj">
+      <Project>32DF38E0-0AA9-4DBF-AD4A-81CC68117DBB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_replicate_6.vcxproj">
+      <Project>03577809-BA2F-4507-B42D-6FD00DF30A93</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_reverse_1.vcxproj">
+      <Project>D749E638-8D40-4BA6-91BE-208B1432CECA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_reverse_2.vcxproj">
+      <Project>52AC2C5D-22AF-4710-BC77-4E78D23F1599</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_reverse_3.vcxproj">
+      <Project>BA7551E7-D0D1-442E-89AC-B66C8AE94400</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_reverse_4.vcxproj">
+      <Project>D8E51286-4930-416F-A987-CBCA2C6F4318</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_reverse_5.vcxproj">
+      <Project>C287F18E-30B1-4159-B789-79FE8EE66C57</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_reverse_6.vcxproj">
+      <Project>FB93E78F-812C-41C0-B0F2-632F4E994B76</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_reverse_7.vcxproj">
+      <Project>ED3F6E5E-1A1C-4240-BA7B-C9904F3A8C3D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_reverse_8.vcxproj">
+      <Project>41E06162-3B48-45FF-8520-A071859D73DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/array_reverse_9.vcxproj">
+      <Project>7B5C12D6-7933-4B80-BB66-F27717A6CBC8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/bandmatrix.vcxproj">
+      <Project>59EA0D20-13D6-4597-AAED-CA90132A6148</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/basicstuff_1.vcxproj">
+      <Project>02B4A56C-BEA2-47D0-9585-753D8B1D30E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/basicstuff_2.vcxproj">
+      <Project>A36F1BF4-B5CF-4DDF-B60B-273881B1A39B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/basicstuff_3.vcxproj">
+      <Project>28F43717-422F-46AD-98DF-99296596C5A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/basicstuff_4.vcxproj">
+      <Project>289E9FC4-8A10-4B88-867E-553D9361500D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/basicstuff_5.vcxproj">
+      <Project>1130664A-8988-428B-B57A-F8E217279DD8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/basicstuff_6.vcxproj">
+      <Project>ECEC0FD5-79EC-43FB-A35D-41EA2A0102A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/basicstuff_7.vcxproj">
+      <Project>A1BA31D3-C7D5-49EB-BF10-2BD82DDF3365</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/bicgstab_1.vcxproj">
+      <Project>EE3BB69A-16CB-47D6-93B1-8F11B160B18B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/bicgstab_2.vcxproj">
+      <Project>AC79102C-6B79-44CA-AE39-F3865D1ED4C5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/block_1.vcxproj">
+      <Project>7D249F55-5440-4CE8-B5FC-C1C397E1C692</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/block_2.vcxproj">
+      <Project>C189BE5C-E5C2-4548-9B88-01210E463850</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/block_3.vcxproj">
+      <Project>DC672EA8-35FE-4608-AD8F-6EEBEE06A9E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/block_4.vcxproj">
+      <Project>0DB5A1BC-1A46-449C-990E-F8186589D6DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/block_5.vcxproj">
+      <Project>FDF17F90-9A62-4CAE-9C39-619AF1E9BBBB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/block_6.vcxproj">
+      <Project>91CEB824-A960-452F-948F-2C54657D0020</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/block_7.vcxproj">
+      <Project>E6CF9154-FD6A-4DEB-80C8-5D1DE43DC91F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/block_8.vcxproj">
+      <Project>C03B904D-B7F7-452F-8CA6-D1CDC55E6904</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cholesky_1.vcxproj">
+      <Project>8184DF30-DABC-4BAF-93FB-BD0F7F7284A5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cholesky_2.vcxproj">
+      <Project>12D1AAD6-4500-447F-84F6-6D60714B284D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cholesky_3.vcxproj">
+      <Project>6B427F40-0677-4D7C-981B-B7A77322DD34</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cholesky_4.vcxproj">
+      <Project>D52CCD62-E4FE-4509-B3E5-0592D0CA2702</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cholesky_5.vcxproj">
+      <Project>D4CDEC1D-595F-4D76-A1BC-D06C0AADE96F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cholesky_6.vcxproj">
+      <Project>C5DF2D4B-4572-43EB-AEE5-713BCF2C56BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cholesky_7.vcxproj">
+      <Project>105B6BBC-572D-4C9B-999F-BDB75D41C67F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cholesky_8.vcxproj">
+      <Project>2F4E2026-38F9-437B-A9E0-DB46F2337E11</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cholesky_9.vcxproj">
+      <Project>C006869D-7C79-475A-8CF5-6430BD90AFCE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/commainitializer.vcxproj">
+      <Project>98AC381A-8A2B-42B2-A58D-C7F47A415B74</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/conjugate_gradient_1.vcxproj">
+      <Project>27DDCCA9-B66F-44D3-92AC-EF95F457379A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/conjugate_gradient_2.vcxproj">
+      <Project>65AAA824-FBE5-4CFA-A68E-A73763597264</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/conservative_resize_1.vcxproj">
+      <Project>83100E7C-5AED-47F4-A342-71B7CD1153FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/conservative_resize_2.vcxproj">
+      <Project>3115E2A3-827C-46F5-A3FE-88DC2AEBB30D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/conservative_resize_3.vcxproj">
+      <Project>04ED4369-D129-4298-B455-241C4D25FEA3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/conservative_resize_4.vcxproj">
+      <Project>F12FF576-9C72-49F7-A0B7-3A620A813E95</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/conservative_resize_5.vcxproj">
+      <Project>0F2B0FA3-F09D-4C01-B086-0650F2C747FD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/conservative_resize_6.vcxproj">
+      <Project>B2BAB34B-FB90-4069-A7A1-069932B936E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/corners_1.vcxproj">
+      <Project>11A78C2A-B204-44F0-9FC8-083586295F79</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/corners_2.vcxproj">
+      <Project>6E147A37-6501-48CE-ACAD-479139119B79</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/corners_3.vcxproj">
+      <Project>906200C7-0A97-414A-86B7-068CEF31931F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/corners_4.vcxproj">
+      <Project>9D7CD48F-E531-494D-8468-3A5E109CEA23</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/corners_5.vcxproj">
+      <Project>07591B64-C028-46C4-A933-7DA45675C761</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cwiseop_1.vcxproj">
+      <Project>C5850088-899B-463D-A5B1-DD3C338964CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cwiseop_2.vcxproj">
+      <Project>1D4C6D4B-03FD-40AA-9A07-D04E5558B3D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cwiseop_3.vcxproj">
+      <Project>C90488E6-5C28-42E4-94F6-8CEA8F34A779</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cwiseop_4.vcxproj">
+      <Project>4AB88ADB-63C5-4A88-885B-11F239805B9E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cwiseop_5.vcxproj">
+      <Project>F1577ADF-87BA-4BC6-9A48-7F87E7E66EEA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/cwiseop_6.vcxproj">
+      <Project>993668E6-E8C7-49A7-882F-3A4CF74947D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/determinant_1.vcxproj">
+      <Project>9FE44F0D-8C16-4201-AD9E-064838AB0544</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/determinant_2.vcxproj">
+      <Project>AF223DEE-A56C-46C3-8CDD-8D747128E0F5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/determinant_3.vcxproj">
+      <Project>4CB09A0E-36D8-494A-8945-6211E8577B5F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/determinant_4.vcxproj">
+      <Project>AA7FFF53-E955-457E-BC0F-606A0CA68959</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/determinant_5.vcxproj">
+      <Project>3815AADB-D89B-4E5A-B302-638B451B0312</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/determinant_6.vcxproj">
+      <Project>C3C4FB07-9434-45EC-B8E9-0639D675F6C7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/diagonal_1.vcxproj">
+      <Project>D23DB079-7668-458A-A6CC-0E8AA4CE2499</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/diagonal_2.vcxproj">
+      <Project>4CA48F7A-F535-4AA1-8EDD-9055375E123C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/diagonalmatrices_1.vcxproj">
+      <Project>18734F9C-1AE9-4417-B02D-59B64BB20ED7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/diagonalmatrices_2.vcxproj">
+      <Project>0862B62B-9297-4ED3-82EB-A132846F68AD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/diagonalmatrices_3.vcxproj">
+      <Project>BD8E93B0-3D2A-4A30-9528-EF2E9AAC0CAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/diagonalmatrices_4.vcxproj">
+      <Project>979CAFC4-2432-44BC-B0A0-104FFD7973BA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/diagonalmatrices_5.vcxproj">
+      <Project>3BBDA297-EAD6-4ACB-813E-BD3E88131672</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/diagonalmatrices_6.vcxproj">
+      <Project>97F655D8-B8F4-493B-AD70-E71AAAA5EFED</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/diagonalmatrices_7.vcxproj">
+      <Project>AC9CCBB5-5E9B-48A1-B8DA-42C5DC616C98</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/diagonalmatrices_8.vcxproj">
+      <Project>84713D2D-C298-4F43-A71D-6FECB46656B4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/diagonalmatrices_9.vcxproj">
+      <Project>01055E40-7140-413C-BC27-8B8285A8AC54</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/dontalign_1.vcxproj">
+      <Project>EAD1A507-3F50-4484-BCCB-4A6A5A7F5CC1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/dontalign_2.vcxproj">
+      <Project>EA3BCC66-830D-4F52-9373-69D6AFA316D2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/dontalign_3.vcxproj">
+      <Project>803A5346-264E-4E96-AE73-75B6F8A209E6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/dontalign_4.vcxproj">
+      <Project>E4E8CC1F-0502-4E93-88AF-7AE2D4550156</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/dontalign_5.vcxproj">
+      <Project>2B5689A7-E63E-4443-9D91-AA77013F8E09</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/dontalign_6.vcxproj">
+      <Project>299A6AD4-85A2-4004-89D2-28B74029C9A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/dontalign_7.vcxproj">
+      <Project>41E1C59D-50C1-4FDB-A143-CC7B280E7A6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/dontalign_8.vcxproj">
+      <Project>004563F5-EAB1-4AA2-B598-AB081668090F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/dynalloc.vcxproj">
+      <Project>441B210F-83A1-4CC2-90D5-BE12F8DF19C4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigen2support_1.vcxproj">
+      <Project>7426A2A6-0255-45FE-A792-67E9163A2DAF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigen2support_2.vcxproj">
+      <Project>C4D51F06-CBA6-4A74-812E-88AC462B8230</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigen2support_4.vcxproj">
+      <Project>7DA372F4-C35E-4D27-A001-8E7D4F5A2C6E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigen2support_5.vcxproj">
+      <Project>64CAE650-26E9-4BAD-A055-6DC04F3A0E60</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigen2support_6.vcxproj">
+      <Project>85A46DA3-06EC-4AF4-B3B0-628E1361DA4D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_complex_1.vcxproj">
+      <Project>6E8E5ACC-E5F6-42B1-A328-591301CA29B9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_complex_2.vcxproj">
+      <Project>2E771598-34B6-4147-960D-B8C37E7F1779</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_complex_3.vcxproj">
+      <Project>FD588238-3F87-4FDD-82D5-515B48822887</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_complex_4.vcxproj">
+      <Project>560F4191-F45D-4318-81D4-5F3A90B99E12</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_complex_5.vcxproj">
+      <Project>EC06DF59-0395-4EF2-AC61-580A9E4B4D45</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_generalized_real_1.vcxproj">
+      <Project>13385FFF-83BC-47C7-8CB2-D88BC70F0654</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_generalized_real_2.vcxproj">
+      <Project>F45DDEB8-9474-413A-84DA-98BB26B7C866</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_generalized_real_3.vcxproj">
+      <Project>D2CF2437-13D6-4CDE-920A-6E69D3F66F31</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_generalized_real_4.vcxproj">
+      <Project>B0637BFD-5497-4E77-B336-4F87E5B5F5D9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_generic_1.vcxproj">
+      <Project>B092872D-E856-43FB-881A-6191AC784F90</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_generic_2.vcxproj">
+      <Project>6151569B-ACA1-42B1-A46A-B816EFAE4ABB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_generic_3.vcxproj">
+      <Project>E36DFAF7-80A1-47AD-91FC-47E7EDD13933</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_generic_4.vcxproj">
+      <Project>6C6CEA92-382E-4EAD-A08F-336EFD467B10</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_generic_5.vcxproj">
+      <Project>7D6477F6-0B74-4931-9BFD-06BF6DD08876</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_selfadjoint_1.vcxproj">
+      <Project>C5C0A560-8484-436E-8A8A-C8104136B877</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_selfadjoint_2.vcxproj">
+      <Project>1F6DAA70-F516-4A14-A26E-088E45E1D588</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_selfadjoint_3.vcxproj">
+      <Project>A1FA4D78-718E-45A1-A3FF-A3D042381E69</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_selfadjoint_4.vcxproj">
+      <Project>9821EFE8-1C3B-4927-BD1E-16B1D2D390C0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_selfadjoint_5.vcxproj">
+      <Project>5CB0AD4B-784F-4940-BA99-5E646E424B70</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_selfadjoint_6.vcxproj">
+      <Project>10719C23-DE42-42ED-9BF0-ACDA577B101E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_selfadjoint_7.vcxproj">
+      <Project>746F0BB7-2F4A-4B84-9959-5847E6D8B3EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_selfadjoint_8.vcxproj">
+      <Project>A035358F-4BA9-499C-B220-394E4A5E992F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/eigensolver_selfadjoint_9.vcxproj">
+      <Project>B0FBDAB7-9F22-4566-AD78-95AC6796E52F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/exceptions.vcxproj">
+      <Project>3C1E9DF3-F33B-4ACD-A60A-291762CE4577</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/first_aligned.vcxproj">
+      <Project>4D330726-151F-4FB3-A4BA-A4B74A386483</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_1.vcxproj">
+      <Project>46C1462F-03F0-4467-965D-B275B496AB99</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_10.vcxproj">
+      <Project>D34967C6-7ECC-490E-81DE-A2D59E927FA1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_11.vcxproj">
+      <Project>87540FA0-9CE9-4CC3-83DA-6B3CF338F014</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_12.vcxproj">
+      <Project>37DFD624-821A-44D5-AC8E-8F6136740E0F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_13.vcxproj">
+      <Project>8B64E907-7342-49C5-B1C5-0F832C5EA507</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_14.vcxproj">
+      <Project>84706BE1-D376-4B38-B3E8-2B2E90C3611D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_2.vcxproj">
+      <Project>6498E015-40DA-4EFC-8F60-512DAD71B291</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_3.vcxproj">
+      <Project>C22B0BDB-A9BF-48E1-B98C-5702598415CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_4.vcxproj">
+      <Project>3AA14B60-F372-42CA-B292-31C35B23DEF5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_5.vcxproj">
+      <Project>25193F91-CA6B-4FA1-8C25-24C50BD9686F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_6.vcxproj">
+      <Project>28A153D9-89D8-40FD-8892-DC4FC3425018</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_7.vcxproj">
+      <Project>23BB603B-9B59-4C32-AB29-3DDF837B4971</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_8.vcxproj">
+      <Project>42AC40D7-5E87-46D6-B745-0279726F7037</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_alignedbox_9.vcxproj">
+      <Project>97EF5275-C9E5-4E3E-8813-FE548F0C226B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_eulerangles_1.vcxproj">
+      <Project>86975ADF-C472-4052-962D-826293A3831B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_eulerangles_2.vcxproj">
+      <Project>472BC74F-F7A3-453C-86C0-ED2C8EE99CF4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_homogeneous_1.vcxproj">
+      <Project>79736DC6-27AF-4D6C-9D19-636E567A4428</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_homogeneous_2.vcxproj">
+      <Project>D833FF9C-AFD8-4369-9658-CD979669E480</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_homogeneous_3.vcxproj">
+      <Project>FAB683A0-3574-4226-8E56-A49AB6B28960</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_hyperplane_1.vcxproj">
+      <Project>7CDBA88E-2F61-42F4-A698-E9FE91620926</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_hyperplane_2.vcxproj">
+      <Project>02382FE6-EA38-451A-AE66-C5833F74CD41</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_hyperplane_3.vcxproj">
+      <Project>E54722E8-4212-472F-AB46-4D45F2308675</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_hyperplane_4.vcxproj">
+      <Project>29746047-DA54-4749-94BA-6722C3AA8B7A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_hyperplane_5.vcxproj">
+      <Project>089F1E8A-B91B-4BB2-ADA6-D335959C49F2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_orthomethods_1.vcxproj">
+      <Project>D55A3A3A-4514-456A-B105-0353458C1781</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_orthomethods_2.vcxproj">
+      <Project>BD15114E-27AE-494B-9B28-BA758485E729</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_orthomethods_3.vcxproj">
+      <Project>36CE0527-0C7B-43DF-A15F-5C3482162C8D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_orthomethods_4.vcxproj">
+      <Project>88B45C9E-F075-4928-91CE-04DDEB4805C6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_orthomethods_5.vcxproj">
+      <Project>02488165-7BB0-477B-9ED3-9C63303111B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_orthomethods_6.vcxproj">
+      <Project>1BFB5527-3D4E-4F9A-8093-5F1F576E76C3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_parametrizedline_1.vcxproj">
+      <Project>2DF1C5B4-D9C7-466E-81E8-48D9EA0EFCF7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_parametrizedline_2.vcxproj">
+      <Project>245D51DA-62EE-4BD6-B708-0C63F77CDB0B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_parametrizedline_3.vcxproj">
+      <Project>6D699252-CEF6-4866-8F8B-06215C3D666F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_parametrizedline_4.vcxproj">
+      <Project>FC31EA35-5E16-4D43-B518-F0D30F967AAE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_quaternion_1.vcxproj">
+      <Project>64ED5E48-D753-4768-ACDE-473A09E0A590</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_quaternion_2.vcxproj">
+      <Project>9528F7AB-8373-464B-8F59-F89A29FC311A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_quaternion_3.vcxproj">
+      <Project>095A7CD8-5662-40A7-87FB-DC2615402053</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_quaternion_4.vcxproj">
+      <Project>0AA5A212-9721-400E-ABF5-6FB9781B197B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_quaternion_5.vcxproj">
+      <Project>888F2B41-5B6F-49D0-9CCB-B69E982DA90C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_quaternion_6.vcxproj">
+      <Project>E821D698-1518-461A-9839-92358B14E695</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_transformations_1.vcxproj">
+      <Project>F0FC5C7D-8DB2-4315-9DC7-85311C77C1CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_transformations_2.vcxproj">
+      <Project>A801D9A5-90B9-4F32-97DE-5838EA7E8C9A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_transformations_3.vcxproj">
+      <Project>E280FBD1-396F-407A-87E2-87CC28129DF5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_transformations_4.vcxproj">
+      <Project>7969E09E-6042-4A08-B579-ADF73EA9EA08</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_transformations_5.vcxproj">
+      <Project>475943B0-E5C3-493C-8D27-FEC5DB969737</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_transformations_6.vcxproj">
+      <Project>92EE5AA2-2BB2-47BA-9D32-2DD88CE2F096</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_transformations_7.vcxproj">
+      <Project>9B13F144-3FE1-4AF0-9E25-ED14449D1944</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/geo_transformations_8.vcxproj">
+      <Project>A24976E3-0238-4472-9FAB-B407AB8E2A40</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/hessenberg_1.vcxproj">
+      <Project>3016E1A4-8E6D-4F06-81FF-4CA9FD7C45E2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/hessenberg_2.vcxproj">
+      <Project>540AB58F-9F14-4284-BA0B-73EE1A26824F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/hessenberg_3.vcxproj">
+      <Project>624C05C8-464D-480F-9A60-515AA8D595C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/hessenberg_4.vcxproj">
+      <Project>BBEB0EF7-C612-4106-8871-CC2DD91B08C7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/hessenberg_5.vcxproj">
+      <Project>86F0A9AE-C5F2-44A1-8BB6-C97325210273</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/hessenberg_6.vcxproj">
+      <Project>A623E4D4-71FF-40CA-BD3B-4E277F43EABE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/householder_1.vcxproj">
+      <Project>B119344E-13EF-47E4-9D69-533C87AB57B0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/householder_2.vcxproj">
+      <Project>EAE7BD86-1BBE-4079-9A91-24464CAC33D2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/householder_3.vcxproj">
+      <Project>49ADD8D1-D499-4D5F-83E1-BF64027B1854</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/householder_4.vcxproj">
+      <Project>F719C1A7-4705-469D-8391-367AFBE36782</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/householder_5.vcxproj">
+      <Project>53B215CF-C925-4468-89E3-D0BCF58FAFEE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/householder_6.vcxproj">
+      <Project>456D0F4A-EE37-48AB-8781-F4E9924ABFA4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/householder_7.vcxproj">
+      <Project>3062C7CB-3034-40D4-AB04-270A1BEFA716</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/householder_8.vcxproj">
+      <Project>3A648020-2B9F-4645-98EF-1EA3C01C9880</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/integer_types_1.vcxproj">
+      <Project>73B27652-643A-4AE8-A5BD-484B52B631E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/integer_types_2.vcxproj">
+      <Project>D795E49D-526F-48DA-996E-7440C977AC6A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/integer_types_3.vcxproj">
+      <Project>7220690E-BB36-436B-A7C8-A33426556283</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/integer_types_4.vcxproj">
+      <Project>72776B7A-AB68-4500-869D-3D0A7819E365</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/integer_types_5.vcxproj">
+      <Project>8F63E7AA-1A3B-4E32-A7AD-2E136BF03801</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/integer_types_6.vcxproj">
+      <Project>21C0E4B4-3D67-4EC9-A3C0-E9D1E1CAF5BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/integer_types_7.vcxproj">
+      <Project>0A4C4D81-B3A9-419A-AA05-609226ECD86A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/integer_types_8.vcxproj">
+      <Project>5CFD2700-E052-4525-8AB3-4E1B147035DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/inverse_1.vcxproj">
+      <Project>60AFB415-50DA-45FB-8BB7-B52FB4F683AE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/inverse_2.vcxproj">
+      <Project>738E36F0-8F8E-4F0C-B57A-131CAEB880C8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/inverse_3.vcxproj">
+      <Project>41547BFD-BB2F-4855-B16F-E43FC6B63AF4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/inverse_4.vcxproj">
+      <Project>7770102C-04B8-48B0-9541-50B79DEB8E40</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/inverse_5.vcxproj">
+      <Project>414181ED-25CB-4FF6-8CA4-9CB62ACB27D9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/inverse_6.vcxproj">
+      <Project>C49BBD78-9ECD-49FB-B63A-56D04F0D3C4D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/inverse_7.vcxproj">
+      <Project>573C4371-BBC9-400B-8AE5-5C39C3F022EE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobi_1.vcxproj">
+      <Project>24D93A27-0A61-4A5D-8453-F1F1F328520E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobi_2.vcxproj">
+      <Project>F4C7B28D-6AED-4B28-8D7E-33C43F494959</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobi_3.vcxproj">
+      <Project>3F9B2EDE-BA05-479E-87B5-5568D9FC2D99</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobi_4.vcxproj">
+      <Project>65C2E058-283F-4B10-B92F-5857197CD46B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobi_5.vcxproj">
+      <Project>60372749-DB0B-417A-BB24-62C3D6665285</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobi_6.vcxproj">
+      <Project>77B60752-E130-49DC-BD4D-753FE0BE0751</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobisvd_1.vcxproj">
+      <Project>B989D9A5-915A-44DC-B203-D18F870E1279</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobisvd_10.vcxproj">
+      <Project>C615A179-C902-4A61-B4E7-D096B38A344D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobisvd_2.vcxproj">
+      <Project>776D79BD-0488-4BC5-8259-465754A614EA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobisvd_3.vcxproj">
+      <Project>0783D107-D513-44A4-BB7A-06980557627E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobisvd_4.vcxproj">
+      <Project>22A109C4-D80A-4D55-99B9-017452581CAE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobisvd_5.vcxproj">
+      <Project>C79950CF-5107-448B-91C6-8F56CCF53928</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobisvd_6.vcxproj">
+      <Project>57E9DE49-613B-4734-8CC8-09938E18F163</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobisvd_7.vcxproj">
+      <Project>2C123609-1D66-4EC7-8ED2-EFCEFE95A905</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobisvd_8.vcxproj">
+      <Project>5E5DF636-CF6F-4C7D-BE26-9A0CF5CC84ED</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/jacobisvd_9.vcxproj">
+      <Project>D8220596-393F-42A0-83BF-A07148F99DCF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/linearstructure_1.vcxproj">
+      <Project>E1A9B2AE-89F9-49BC-9E07-3DE92C9E3593</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/linearstructure_2.vcxproj">
+      <Project>812C2B78-8717-43BD-A4B2-067BD6860BCE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/linearstructure_3.vcxproj">
+      <Project>0864A5D3-CCA1-4130-9B0D-4E123A6158D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/linearstructure_4.vcxproj">
+      <Project>7E44DFF9-BCB0-4F95-A7DD-0591265E85CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/linearstructure_5.vcxproj">
+      <Project>03DEE53E-7302-4B98-ABE3-853DB81E32A2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/linearstructure_6.vcxproj">
+      <Project>39FB5F43-E39D-4F57-8B1A-6D7F64E24F6B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/linearstructure_7.vcxproj">
+      <Project>652F414F-BB74-4B99-97B0-E21C8626F924</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/linearstructure_8.vcxproj">
+      <Project>52F9D152-2B56-4554-8365-CB8FE9409059</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/linearstructure_9.vcxproj">
+      <Project>EA6FE1A5-9FB6-42EA-8775-A63090EA2857</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/lu_1.vcxproj">
+      <Project>E1008A9F-3869-4944-B28A-29828C01B300</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/lu_2.vcxproj">
+      <Project>5B495AF5-81C9-48E9-9983-FEDFBD1E8A28</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/lu_3.vcxproj">
+      <Project>89D8D4D8-C10E-4563-AF4E-2D6CF905FEBE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/lu_4.vcxproj">
+      <Project>517EF2F6-826B-4B19-8E4E-3294193C32D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/lu_5.vcxproj">
+      <Project>49862E7E-E0A1-4F9D-B8FF-1B4B559442D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/lu_6.vcxproj">
+      <Project>0D94028E-F913-4112-8A11-7FBD8E0322D4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/lu_7.vcxproj">
+      <Project>5E71CE25-407B-4F11-A37A-73C1E65540BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/lu_9.vcxproj">
+      <Project>74398BF7-94CA-4129-81AE-98E1CDFC0FCE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapped_matrix_1.vcxproj">
+      <Project>BD1D36EB-CCFC-4D12-960A-C3B0ED1AD8A1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapped_matrix_10.vcxproj">
+      <Project>E89CD6C1-977C-4F88-B464-71C5ECDC53A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapped_matrix_11.vcxproj">
+      <Project>776231D2-613B-4ACD-ABF6-EBB8ED60BA93</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapped_matrix_2.vcxproj">
+      <Project>F51B0B9D-E699-4BD3-9C17-EDADA4A93225</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapped_matrix_3.vcxproj">
+      <Project>7BED131A-6EEC-4509-A43B-841F6408411D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapped_matrix_4.vcxproj">
+      <Project>02C7BA64-9B2C-4459-A015-FE8A9D3C4520</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapped_matrix_5.vcxproj">
+      <Project>6673B0BF-90C3-4A11-BEA2-2699014EBCB7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapped_matrix_6.vcxproj">
+      <Project>2C474910-4849-4E74-A9B1-F5D43FCBAFBB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapped_matrix_7.vcxproj">
+      <Project>5D7A28CF-8008-4088-946E-4EFCA49B8180</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapped_matrix_8.vcxproj">
+      <Project>F99096DA-C317-4764-89CD-238B5BA4BDF0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapped_matrix_9.vcxproj">
+      <Project>D155A433-01D9-4551-9457-D1C90607F552</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstaticmethods_1.vcxproj">
+      <Project>74957AC7-57DE-4F28-AF55-DE5994A6D4F2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstaticmethods_2.vcxproj">
+      <Project>DD7C2EE9-24C4-4E2D-9E81-837F8FECCFBB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstaticmethods_3.vcxproj">
+      <Project>CF54F370-0306-4A91-A119-0423A89E2E03</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstaticmethods_4.vcxproj">
+      <Project>8ECB5721-4B45-42CE-8254-D0754B19C0FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstaticmethods_5.vcxproj">
+      <Project>6F60817D-F670-4343-9A56-4E9EFA4F5C65</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstaticmethods_6.vcxproj">
+      <Project>A47BFF97-691A-48CD-A1E5-83F69D8C4038</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstaticmethods_7.vcxproj">
+      <Project>7E9867E1-EBFB-401C-9310-61D46788F24B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstaticmethods_8.vcxproj">
+      <Project>EC3617C9-E73D-4DEB-B15E-D6E31FF44F0C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstride_1.vcxproj">
+      <Project>8B2F2F38-7529-4FEE-AA13-57C1C7B77CB0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstride_2.vcxproj">
+      <Project>B7DF7F58-F4C4-4F43-A3BF-584DA43A996E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstride_3.vcxproj">
+      <Project>46329278-08BF-435E-BC3C-734C44689832</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstride_4.vcxproj">
+      <Project>7D7457BD-BCCF-46D0-B2EA-B000EAD7599A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstride_5.vcxproj">
+      <Project>53B8DE9C-79CD-464B-BB78-74E2BF8B553B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mapstride_6.vcxproj">
+      <Project>B93CEBF3-4E40-4391-81CA-E452D6A74196</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/meta.vcxproj">
+      <Project>6CFA6062-4828-43EA-AAB3-B8677032C7F1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/miscmatrices_1.vcxproj">
+      <Project>BA1BDA3D-C0F9-4954-A430-B3844257F90E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/miscmatrices_2.vcxproj">
+      <Project>B780B7AA-0CE3-4753-B1F4-86D13523B296</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/miscmatrices_3.vcxproj">
+      <Project>C730C0AF-41F8-45D8-919C-FFFE5E858816</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/miscmatrices_4.vcxproj">
+      <Project>73B2DB1D-04CB-4E5C-8094-4A1697B54908</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/miscmatrices_5.vcxproj">
+      <Project>DC2AFE06-0346-47CC-A60A-02561DE58F05</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mixingtypes_1.vcxproj">
+      <Project>27816275-24F6-4F66-ABA4-D211B26250F0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mixingtypes_2.vcxproj">
+      <Project>FE9DFF21-5A19-4922-88D5-12724D752D6E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mixingtypes_3.vcxproj">
+      <Project>F8057A87-975E-47D0-819C-1A0DA435452C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/mpl2only.vcxproj">
+      <Project>70302A71-D397-41AF-91D9-4E42DAE1AEDF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nesting_ops_1.vcxproj">
+      <Project>A55ED746-1A3D-4838-9B7E-F88384306664</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nesting_ops_2.vcxproj">
+      <Project>9871A6CC-7F63-476E-B924-1131EBF25B03</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nesting_ops_3.vcxproj">
+      <Project>A68A9FD2-B8C0-47CC-8522-D8624892CD5F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nesting_ops_4.vcxproj">
+      <Project>282882B0-C486-4FD3-8D52-745592507C2F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nomalloc_1.vcxproj">
+      <Project>4F14C729-44B4-45A1-B24D-216220079165</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nomalloc_2.vcxproj">
+      <Project>8635EEA4-9E9A-4C6C-A279-FBB68FACC03E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nomalloc_3.vcxproj">
+      <Project>6BB2CE0E-23E7-4DFC-ABA1-86F9E81BC60C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nomalloc_4.vcxproj">
+      <Project>AC47DCDB-1E4C-4E15-92B0-1EBB7EDCF01F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nomalloc_5.vcxproj">
+      <Project>B2E2384C-2B33-4A0C-816E-4C039BAA83DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nomalloc_6.vcxproj">
+      <Project>5C0D1227-D70F-4430-B4CC-2FB95AB51DF2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nullary_1.vcxproj">
+      <Project>F55765F1-E0BC-4333-A827-B532C5CC3EB8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nullary_2.vcxproj">
+      <Project>B2F96DEB-A5D0-400E-9BB4-5F32E673DCF4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nullary_3.vcxproj">
+      <Project>A64F9F21-D304-4408-86D3-0BFA54728EAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nullary_4.vcxproj">
+      <Project>75286267-E766-446C-AAB6-E27D2BA2DEA1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nullary_5.vcxproj">
+      <Project>682C4051-E1E9-424E-82C1-0EE2E8BB251B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nullary_6.vcxproj">
+      <Project>963C6DD3-8140-43B9-BEFC-12D4E05FA521</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nullary_7.vcxproj">
+      <Project>FE833234-B99F-4ADB-A62B-6F845524017E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/nullary_8.vcxproj">
+      <Project>6CD2A5B5-5199-4A22-8FCA-FE579D9CB170</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/packetmath_1.vcxproj">
+      <Project>62BC0DA2-D1B7-4881-9538-304003EB964B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/packetmath_2.vcxproj">
+      <Project>25EC7608-C1F7-43C4-995A-C389F64C505A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/packetmath_3.vcxproj">
+      <Project>0239CCB2-EB57-4611-B914-1973EB65BBF3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/permutationmatrices_1.vcxproj">
+      <Project>F28C658A-D0B0-40A1-AEDA-3CDE72EFEADE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/permutationmatrices_2.vcxproj">
+      <Project>2B1807DD-6738-4046-856E-2218B340B274</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/permutationmatrices_3.vcxproj">
+      <Project>1E2AACF7-C0F3-4A04-B034-C9672530CA6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/permutationmatrices_4.vcxproj">
+      <Project>67125DD5-9381-4A1F-85AB-5C568FEA36FD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/permutationmatrices_5.vcxproj">
+      <Project>32096CCA-F946-4A9F-BF39-717AF69AD2B5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/permutationmatrices_6.vcxproj">
+      <Project>39D04EA9-9BED-4C11-9017-A4FD9C1812C7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/permutationmatrices_7.vcxproj">
+      <Project>9B64CA22-1458-4D2C-A6FC-24FC5341EF3E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/prec_inverse_4x4_1.vcxproj">
+      <Project>415D9B59-984C-4B21-880C-97EBB27F22BF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/prec_inverse_4x4_2.vcxproj">
+      <Project>55C01A1D-218A-4A26-AA8D-E2E70303DB65</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/prec_inverse_4x4_3.vcxproj">
+      <Project>BB3D18A1-C8B9-47F2-8650-42670DF02A00</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_extra_1.vcxproj">
+      <Project>88693A00-24CB-472A-9064-BAB0DE87DAC4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_extra_2.vcxproj">
+      <Project>4AB09752-6247-4BB2-8A21-3936CD5657F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_extra_3.vcxproj">
+      <Project>C8D758BA-CF87-4D35-8332-8DAF0304D77D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_extra_4.vcxproj">
+      <Project>E77C3237-88B6-464A-AF90-145E3F4B06E7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_extra_5.vcxproj">
+      <Project>6480D67B-E97B-444B-BB43-E4A52681BEE5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_extra_6.vcxproj">
+      <Project>82F17B4E-ED18-4C0D-93BB-5C68FBFC67E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_large_1.vcxproj">
+      <Project>84F15731-E921-4825-B82E-714A1A46A5DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_large_2.vcxproj">
+      <Project>D79210E6-2580-4585-B100-EC7D915FEECC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_large_3.vcxproj">
+      <Project>779A0BA6-A7A0-4424-B9F3-4017DCA945A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_large_4.vcxproj">
+      <Project>8A5338C3-7976-4CD8-B9B2-DD5608093115</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_large_5.vcxproj">
+      <Project>78ABA7ED-4EFB-4AA0-8929-E07930D62AD3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_large_6.vcxproj">
+      <Project>0276FBA8-2FE0-4313-9E50-5E904B3B25FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_mmtr_1.vcxproj">
+      <Project>F146D28C-D7C5-4393-A10B-736558712A71</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_mmtr_2.vcxproj">
+      <Project>99825815-21E5-4121-A391-69ABDE834A5C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_mmtr_3.vcxproj">
+      <Project>71B9EFF7-A98E-40D0-ADAB-C0CA4A513030</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_mmtr_4.vcxproj">
+      <Project>F5517039-0532-4FA5-AB0E-1FDEAD4F3264</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_notemporary_1.vcxproj">
+      <Project>09A7F1A1-DA1F-4854-B92A-A0A891FB1B17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_notemporary_2.vcxproj">
+      <Project>4ED3A594-E468-4511-8D50-FD78E2776CCC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_notemporary_3.vcxproj">
+      <Project>8A5843C5-525C-4228-8FE7-7CDC196BB8B4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_notemporary_4.vcxproj">
+      <Project>CDC482C2-A1E8-4271-9AFA-11D08E2CEDED</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_selfadjoint_1.vcxproj">
+      <Project>1E5DAB66-0BF8-4B9E-854B-C0632DE244FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_selfadjoint_2.vcxproj">
+      <Project>DD9D351D-633B-4BE7-BD75-8C24AC56A41A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_selfadjoint_3.vcxproj">
+      <Project>281F7068-310F-4CB2-9A90-95885A09D99A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_selfadjoint_4.vcxproj">
+      <Project>558065C5-F995-409F-AA7A-C58C51D9CAF3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_selfadjoint_5.vcxproj">
+      <Project>BDADD938-538D-4DC8-B9E8-6E7BE62BE13B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_selfadjoint_6.vcxproj">
+      <Project>DFD8121D-C2C2-42C4-A6C7-579815E42964</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_selfadjoint_7.vcxproj">
+      <Project>85040ED8-B803-4F25-8557-335372A0D485</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_small_1.vcxproj">
+      <Project>E6880EF3-EC69-4A01-960D-E11C612D70E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_small_2.vcxproj">
+      <Project>8163DEDA-4718-492A-8D59-2BE930DE4738</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_small_3.vcxproj">
+      <Project>B2BFF872-0425-4E7C-ACDE-7F149D3DFEC3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_small_4.vcxproj">
+      <Project>70607719-861D-48FB-A8CF-DE5CE1185B02</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_small_5.vcxproj">
+      <Project>1A33B52C-000A-4D04-9A48-E6469A867C48</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_small_6.vcxproj">
+      <Project>80C63BB5-3B3F-4DE1-9797-9D8F0E174693</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_symm_1.vcxproj">
+      <Project>6F0E79B6-F4C5-42C5-876E-2E50F07497FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_symm_2.vcxproj">
+      <Project>B7BF3100-D2FB-4654-9D52-62C173615A3D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_symm_3.vcxproj">
+      <Project>183794DC-8A0D-4806-8361-4613196376FB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_symm_4.vcxproj">
+      <Project>EB36E8E3-00FB-49F4-8699-1C38E7FB76DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_symm_5.vcxproj">
+      <Project>CC0012F4-8FA0-4676-BB59-53FC2DB8C26A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_symm_6.vcxproj">
+      <Project>753F1BF0-E194-4BD8-9BFC-D35F4F23097E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_symm_7.vcxproj">
+      <Project>DBE273CC-8E72-4F03-B245-C458C70FEF4B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_symm_8.vcxproj">
+      <Project>8DDED368-3DE1-4266-955C-E0CF658B57D9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_syrk_1.vcxproj">
+      <Project>36B7DA5A-3BA2-49A7-BD79-9438F0476434</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_syrk_2.vcxproj">
+      <Project>42A9A579-D7BD-465F-8FE0-D34716E453F9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_syrk_3.vcxproj">
+      <Project>052F5419-8D58-49A6-A59A-3E1040C2F929</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_syrk_4.vcxproj">
+      <Project>EE79A54A-A919-4996-BDBB-EE58B52FD28B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_1.vcxproj">
+      <Project>6348803B-F83A-4354-925A-0DF4EC896D00</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_11.vcxproj">
+      <Project>7BCD4F40-115B-4EF9-B287-3927599191A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_111.vcxproj">
+      <Project>D5DD2472-7A5A-4E7A-B82C-27D021E4C01D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_112.vcxproj">
+      <Project>158E09AC-872B-4A20-8167-1BF48D6BEE36</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_113.vcxproj">
+      <Project>368E6047-D4D3-4767-9A53-86AC719200BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_114.vcxproj">
+      <Project>DB82738B-CF42-4021-B1E5-3352770AD8AB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_12.vcxproj">
+      <Project>60C5E3BA-6FDA-425D-9C10-089D23A6739B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_121.vcxproj">
+      <Project>FDAA9125-1664-4D7F-8C2A-98C7C9CD23E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_122.vcxproj">
+      <Project>89895602-C3FC-4323-83A5-A0C6DECCC189</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_123.vcxproj">
+      <Project>6D2186DA-259E-4D62-B4B9-3BCAD2374872</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_124.vcxproj">
+      <Project>C46378EF-2923-4684-AFC8-64B0DAEB4290</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_13.vcxproj">
+      <Project>E500AC51-88CD-494E-8D9C-1DF5193E26D8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_131.vcxproj">
+      <Project>0354D160-DA19-4EAC-B5A5-AF709955AD6D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_132.vcxproj">
+      <Project>AB24C9FD-13D4-44D6-9CE2-4EB0817557B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_133.vcxproj">
+      <Project>9BF5D6DF-C880-464B-A9FA-209143C9FB41</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_134.vcxproj">
+      <Project>165BBF9C-B46D-44A0-AD6F-B00B3C025A17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_14.vcxproj">
+      <Project>F0A4C186-133D-4ABC-BC33-E9DD8B590EE5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_21.vcxproj">
+      <Project>28481500-2033-4783-B582-2B34AFEC089A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_22.vcxproj">
+      <Project>41DE0197-31F9-4E6C-90E4-571865EB195D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_23.vcxproj">
+      <Project>78658F34-15F9-4B16-89E4-46FCDDB2573D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_24.vcxproj">
+      <Project>1EE48170-713C-4FE4-BB88-FC0C432B2B2F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_31.vcxproj">
+      <Project>CEEBF0B9-EE8E-40AD-9715-948C3DA43045</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_32.vcxproj">
+      <Project>6285C354-259B-42D6-B375-064BAA839D56</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_33.vcxproj">
+      <Project>C9A86C90-CEBC-466B-A3BD-79350DADCAEC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmm_34.vcxproj">
+      <Project>244C7646-C31A-49FF-B696-04A135F4A6E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmv_1.vcxproj">
+      <Project>87AC2C82-00D3-4963-8FB7-254DB6D708C3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmv_2.vcxproj">
+      <Project>AB9F79C1-33ED-44FA-A8BD-A752AB70D2C8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmv_3.vcxproj">
+      <Project>928F673E-A468-4836-955E-7BE9746B7AAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmv_4.vcxproj">
+      <Project>CC24827C-F892-439F-A938-F46ACB80AB59</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmv_5.vcxproj">
+      <Project>7E1241A2-E1E6-4AC2-A2C0-86B8C48451AF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trmv_6.vcxproj">
+      <Project>44B6F66F-AFF0-47BE-B718-70C4CC83A990</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trsolve_1.vcxproj">
+      <Project>28F0DF07-989B-45C7-93D8-7853803F7942</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trsolve_2.vcxproj">
+      <Project>8B39ED39-5BE8-40C9-89A6-73AD2CCCC51C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trsolve_3.vcxproj">
+      <Project>963E8706-25A4-4E0D-8266-79C0498B18A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trsolve_4.vcxproj">
+      <Project>56D13690-C398-4551-B5FC-2F620C22DD14</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trsolve_5.vcxproj">
+      <Project>C455027F-3D33-4B72-8038-B5FFD9A4AAF6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trsolve_6.vcxproj">
+      <Project>90E53CD5-B248-4CB9-9459-30CC62E95A4E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trsolve_7.vcxproj">
+      <Project>DA73E3AE-75D0-4545-94DD-993725B22EB1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/product_trsolve_8.vcxproj">
+      <Project>75F26BC3-6DFB-4B67-B686-8108B9DEFE96</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_1.vcxproj">
+      <Project>06957660-AB05-4A9E-A349-DCDC347B1DB9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_10.vcxproj">
+      <Project>06A98FB1-C4E7-4CFA-A3D9-FC69A7C1C6A3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_11.vcxproj">
+      <Project>7E2673F6-91E4-4AD5-BD7D-A706CD0BB2D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_12.vcxproj">
+      <Project>B93D7C0E-AE00-4FE8-BEA4-E536D1873FF7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_2.vcxproj">
+      <Project>2ACEAD79-4C95-4902-ABDA-A93DAAC5E906</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_3.vcxproj">
+      <Project>882FEC34-710D-4785-A04E-04714902B540</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_4.vcxproj">
+      <Project>6D510E3D-FD67-4221-B220-28FEA766026E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_5.vcxproj">
+      <Project>C3B0DACA-0D07-4A42-95CA-59B4DB5A0B0D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_6.vcxproj">
+      <Project>02866EE8-4232-4D5B-8199-8CD2AC9BEA54</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_7.vcxproj">
+      <Project>71283001-CCB1-419E-91A3-9D4A0AF4E4ED</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_8.vcxproj">
+      <Project>9514B5C5-23BC-4BE1-984B-5DFAE1C1CB47</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_9.vcxproj">
+      <Project>9EB7BD9C-7A0F-4F21-9A14-469DA1F713B9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_colpivoting_1.vcxproj">
+      <Project>4FA9662E-52F1-4BBA-B16B-054A7F945B39</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_colpivoting_2.vcxproj">
+      <Project>D94417EE-542D-4BE4-826E-4CC91984C530</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_colpivoting_3.vcxproj">
+      <Project>2DE215D3-2D47-4979-98EC-18C061F160B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_colpivoting_4.vcxproj">
+      <Project>0070BBDA-2C15-4C22-8DF4-A161DEA4F90C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_colpivoting_5.vcxproj">
+      <Project>14D8F8E3-180F-4CA1-A208-0E105B56D75C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_colpivoting_6.vcxproj">
+      <Project>7A531A87-3FA4-4AD9-AA81-80D41E5A5A1D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_colpivoting_7.vcxproj">
+      <Project>862E93A6-D41B-4D50-9ED6-9784B2137057</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_colpivoting_8.vcxproj">
+      <Project>546027A9-4256-4330-9987-C5A3EF8DE988</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_colpivoting_9.vcxproj">
+      <Project>29DBEF93-147E-4D7B-B1AF-0FA53AC6824D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_fullpivoting_1.vcxproj">
+      <Project>38CA98BD-BD83-447F-83FA-113928E89128</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_fullpivoting_2.vcxproj">
+      <Project>95D5FA82-C38B-4C49-B828-5A7BC36AC910</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_fullpivoting_3.vcxproj">
+      <Project>5CCFFE45-DC02-48EC-AA06-19556FE88F21</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_fullpivoting_4.vcxproj">
+      <Project>793BEC46-1A56-469C-AAFE-858668210A1C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_fullpivoting_5.vcxproj">
+      <Project>FAB0A184-0068-42F2-9F8F-7E345A8A3999</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_fullpivoting_6.vcxproj">
+      <Project>F86C8AEB-15BE-4141-BBD9-1C13E5F4CB1C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/qr_fullpivoting_7.vcxproj">
+      <Project>638AF60E-A0E3-4A5C-B284-498AA1140EBD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/rand.vcxproj">
+      <Project>6C165573-5AB9-40E3-9BDD-3F2FDD06C359</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/real_qz_1.vcxproj">
+      <Project>44F984C6-7FF5-48B6-901C-7031CC2853A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/real_qz_2.vcxproj">
+      <Project>1925DE70-C6FE-4984-9B1C-C9655A0D7512</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/real_qz_3.vcxproj">
+      <Project>CD78DFBD-16AD-4EE5-9CD2-E07E6086EFA0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/real_qz_4.vcxproj">
+      <Project>34D926A4-96F0-41A2-94C8-EB8D68784381</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/redux_1.vcxproj">
+      <Project>6F778B22-47C7-4777-92D7-56693FECAC06</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/redux_2.vcxproj">
+      <Project>F31B1907-D388-48CF-8CEE-E3EBF336D811</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/redux_3.vcxproj">
+      <Project>A347C38E-3CB3-48B9-89F9-CA62964054D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/redux_4.vcxproj">
+      <Project>F48BBCB5-A7EC-4AF4-B50C-D33E3AD453CC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/redux_5.vcxproj">
+      <Project>28EA8075-7102-4A83-A9FC-22E91F56E431</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/redux_6.vcxproj">
+      <Project>EA108D99-0541-45AC-BD9F-66F60D4A5A82</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/redux_7.vcxproj">
+      <Project>9DDAF7F9-73BC-4278-9258-4F8938693377</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/redux_8.vcxproj">
+      <Project>08168E6B-CE19-457C-99E9-3893BC04E272</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/ref_1.vcxproj">
+      <Project>F0D019DB-9060-4359-AB1B-CE0BA53C0FC8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/ref_2.vcxproj">
+      <Project>9BF224F6-2695-4134-BE79-E6D0BD55FE7E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/ref_3.vcxproj">
+      <Project>34E3AC12-3A6D-44B3-B262-5C9A39AAA36E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/ref_4.vcxproj">
+      <Project>8F976164-88B4-4506-B521-0F1C15573414</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/ref_5.vcxproj">
+      <Project>CA37864A-B0B3-45D4-9BFE-B1BD017E5549</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/ref_6.vcxproj">
+      <Project>EE5937B9-3978-4A88-8CFC-78C58D972464</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/ref_7.vcxproj">
+      <Project>E4BA38B1-A5E7-4528-9AF3-582A314B9A70</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/resize.vcxproj">
+      <Project>F959E73B-696F-42E5-B56E-5DA3532D5808</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/rvalue_types_1.vcxproj">
+      <Project>266E670D-45B2-4D1B-B0E9-36182967F6ED</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/rvalue_types_2.vcxproj">
+      <Project>83E88DC9-C4AB-4769-91AD-17D37BD8EF59</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/schur_complex_1.vcxproj">
+      <Project>BB0787CA-0C63-4031-A65A-729900505BE9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/schur_complex_2.vcxproj">
+      <Project>D5851F77-A633-4F7F-BE54-0886493C6F32</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/schur_complex_3.vcxproj">
+      <Project>25FD813C-8685-49BD-8D41-C39247EAC0EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/schur_complex_4.vcxproj">
+      <Project>A80E5B62-5F92-4025-94FF-082AF5DD4E7E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/schur_complex_5.vcxproj">
+      <Project>A534C506-E9EF-4BCC-AA01-5F200D16C5A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/schur_real_1.vcxproj">
+      <Project>0E0F9B00-46D1-4D68-AE3F-F69DCDB8092D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/schur_real_2.vcxproj">
+      <Project>E6F000FB-A040-4DEA-9770-FAEBFCB894DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/schur_real_3.vcxproj">
+      <Project>42834AFF-E36A-4E0B-B628-DC6E68B8F9F5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/schur_real_4.vcxproj">
+      <Project>8F62457D-C0D5-4AAC-8985-D2E12D6D36F6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/schur_real_5.vcxproj">
+      <Project>D15FB2CF-B3AB-401C-8CF1-B8E5560BFAC4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/selfadjoint_1.vcxproj">
+      <Project>04D100A7-D003-4296-A9B4-DC4758DD6D99</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/selfadjoint_2.vcxproj">
+      <Project>DC57F9C9-7CB4-498F-ACA3-DBFB89017CC0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/selfadjoint_3.vcxproj">
+      <Project>CACF906C-5DD4-49F5-A4A9-496A51B1E088</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/selfadjoint_4.vcxproj">
+      <Project>12C29E9C-546A-4E6C-9955-0B68EBF3F6E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/selfadjoint_5.vcxproj">
+      <Project>E0AC9632-F09A-4562-AFB8-9FD41D3EA754</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/simplicial_cholesky_1.vcxproj">
+      <Project>B1F942A4-3A5B-4DC4-AE67-3495DB225FBD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/simplicial_cholesky_2.vcxproj">
+      <Project>7A1B46D1-3297-40B3-A683-51682E993B9C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sizeof.vcxproj">
+      <Project>0B3D154B-68ED-4B2F-9456-F72C4B0D7663</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sizeoverflow.vcxproj">
+      <Project>8BE38A53-3E5B-49A6-B6EA-233C5FC98D57</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/smallvectors.vcxproj">
+      <Project>3F4D40E5-624D-4DE5-9AB1-D68DD8AC79BD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparse_basic_1.vcxproj">
+      <Project>87964907-4878-4C51-9395-12072101EEE9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparse_basic_2.vcxproj">
+      <Project>02D072AB-7C60-459A-B042-39302E385D41</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparse_permutations_1.vcxproj">
+      <Project>D08628B0-A9DF-425D-8C85-60A23C314A10</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparse_permutations_2.vcxproj">
+      <Project>0781A3E7-8C30-455B-89E1-B15C239423CE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparse_product_1.vcxproj">
+      <Project>65B23BE6-79D9-4B6E-AD7F-A7370B2C0A68</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparse_product_2.vcxproj">
+      <Project>B4B951AA-7C35-4F08-9225-28A350971632</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparse_product_3.vcxproj">
+      <Project>4D3A2FA6-93DD-49DE-8FCF-B89728B407E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparse_product_4.vcxproj">
+      <Project>D8509547-0B0E-41DD-92A7-D8798C4F27FA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparse_solvers_1.vcxproj">
+      <Project>6560A05B-BD01-48F8-B56D-C2F43DACB8FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparse_solvers_2.vcxproj">
+      <Project>1A457D51-5EF1-43FF-8E28-02697628E999</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparse_vector_1.vcxproj">
+      <Project>DEC2F2DE-57E9-412C-B884-A9C8471902ED</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparse_vector_2.vcxproj">
+      <Project>ED384277-254D-4850-8100-3016CE595A14</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparselu_1.vcxproj">
+      <Project>0C77EBCA-2777-4E49-9E38-77F3D36AD759</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparselu_2.vcxproj">
+      <Project>3F1DBFDE-7E45-4ACE-B74D-BC27DFDB9E7F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparselu_3.vcxproj">
+      <Project>C12803EB-7D96-435B-9BE4-7C58C98194FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparselu_4.vcxproj">
+      <Project>D3A9676F-2D8C-48CB-9679-9990D6A7B0F6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparseqr_1.vcxproj">
+      <Project>6496574D-74DA-4F38-8159-4F0AE30F774D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/sparseqr_2.vcxproj">
+      <Project>0744006E-593B-4D23-B348-FA10DABC2D8C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/special_numbers_1.vcxproj">
+      <Project>AED45307-1A97-4C31-B364-DA2C139BAC53</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stable_norm_1.vcxproj">
+      <Project>0B81BAC3-4319-4366-AA56-348F92F3F5A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stable_norm_2.vcxproj">
+      <Project>2282B42C-AABE-4989-90A7-F226E8DDE339</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stable_norm_3.vcxproj">
+      <Project>9D4B937D-8C2B-48DD-9851-2F2E384E8525</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stable_norm_4.vcxproj">
+      <Project>1941ACF3-FC3D-427E-A7D0-D08B448EE435</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stable_norm_5.vcxproj">
+      <Project>2A95218B-7B13-49CB-9204-84D4265BE6A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stddeque_1.vcxproj">
+      <Project>FC0EA375-3561-43F8-9BC1-6D5B7F1E4E6E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stddeque_2.vcxproj">
+      <Project>B4F3B516-FD21-48BD-9135-1F1BBFDBF2BA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stddeque_3.vcxproj">
+      <Project>88407E4C-A6AE-4BC9-882D-3C592649F9DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stddeque_4.vcxproj">
+      <Project>5746C169-0F63-40EA-BC18-C3691DC4A1BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stddeque_5.vcxproj">
+      <Project>4C95BA82-9056-4C4A-91C0-D2BB57F1BFF8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stddeque_overload_1.vcxproj">
+      <Project>1F2E752C-087C-4C71-AE4D-FADB1C8E2CE2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stddeque_overload_2.vcxproj">
+      <Project>738CD23B-16C2-456E-9B7A-02E3AF6DFE8D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stddeque_overload_3.vcxproj">
+      <Project>92F3535A-4CCA-4DA2-B8BE-27BEE2B21054</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stddeque_overload_4.vcxproj">
+      <Project>FB10EFA3-545E-43EE-B193-507F15CC6451</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stddeque_overload_5.vcxproj">
+      <Project>D0A0EF70-2968-4ECC-A2DF-2347FD6EE815</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdlist_1.vcxproj">
+      <Project>A979D109-8B8B-43F2-847F-F10118440153</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdlist_2.vcxproj">
+      <Project>98EEA02E-326C-4DDF-B836-8F5B117792E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdlist_3.vcxproj">
+      <Project>EA114045-F1FE-4F98-A916-92532215E55D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdlist_4.vcxproj">
+      <Project>373621BB-A7BA-46C1-813B-9C5A1D9595E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdlist_5.vcxproj">
+      <Project>784E8899-A172-40C8-A79A-71891E548481</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdlist_overload_1.vcxproj">
+      <Project>10D2750E-EC9B-435D-9F14-EA3051E2BCBC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdlist_overload_2.vcxproj">
+      <Project>88E2078E-D729-4F1E-A6C1-F4200D89D831</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdlist_overload_3.vcxproj">
+      <Project>671867BF-C0C6-4488-BEBA-30B9FB38502E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdlist_overload_4.vcxproj">
+      <Project>636A79BD-6527-4EB7-839E-22BA90858708</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdlist_overload_5.vcxproj">
+      <Project>DC5632B4-CE07-43D4-B33D-04D70A97EB7A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdvector_1.vcxproj">
+      <Project>8B75DD58-A664-47BE-AEF1-806263D47F3E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdvector_2.vcxproj">
+      <Project>9E3160EF-F7B5-4100-846E-5E6F05922998</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdvector_3.vcxproj">
+      <Project>43232A83-7657-40D2-9392-8BCD9B7D0165</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdvector_4.vcxproj">
+      <Project>D4CE4C7B-D80A-47E8-BD90-B89494F28C19</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdvector_5.vcxproj">
+      <Project>DC789B02-C83E-459A-99AB-39522563C442</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdvector_overload_1.vcxproj">
+      <Project>C26426FD-EA9A-4013-B703-4D7AE18AA7E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdvector_overload_2.vcxproj">
+      <Project>9B62D512-B860-4290-81CF-C1F25591005C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdvector_overload_3.vcxproj">
+      <Project>40C71223-F9F4-4234-A172-C47B42243526</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdvector_overload_4.vcxproj">
+      <Project>935137CC-E938-4ABF-A145-8AC04FE2282E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/stdvector_overload_5.vcxproj">
+      <Project>8B28938D-88DA-4678-9A5E-3F74F0744131</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/swap_1.vcxproj">
+      <Project>A5A5DF35-FC12-4732-83C7-8D5B5777D2E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/swap_2.vcxproj">
+      <Project>33344657-7A0B-490D-B9BC-B239C9DBB19E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/swap_3.vcxproj">
+      <Project>280CE854-A080-458A-916A-147729859245</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/swap_4.vcxproj">
+      <Project>A152BFCD-C6AF-4F9C-8E4B-1EDE81FC4CA7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/triangular_1.vcxproj">
+      <Project>7DADCF78-770B-44B3-976A-C23F5DD50BAD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/triangular_2.vcxproj">
+      <Project>53FBA3CC-3179-4AEF-A3F2-19F9C0727F3C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/triangular_3.vcxproj">
+      <Project>5D39B714-4D67-4484-A41F-ED0A2A626F2C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/triangular_4.vcxproj">
+      <Project>8E35D9DE-D9D9-4541-BCD2-D984FD43A03A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/triangular_5.vcxproj">
+      <Project>4F9DD4FC-6FB1-4D90-85FB-7E49CC927CAF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/triangular_6.vcxproj">
+      <Project>A352954C-6CFD-41CB-BF93-D0B9439ECBBF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/triangular_7.vcxproj">
+      <Project>999856DA-978D-4B62-A6CC-4606DEE09F8C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/triangular_8.vcxproj">
+      <Project>1CB03AC7-2662-426F-9CDC-1CF7A7BE4CC4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/triangular_9.vcxproj">
+      <Project>A5D35779-68A6-46A5-88BE-50DC4E8E03D9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/umeyama_1.vcxproj">
+      <Project>57EEF008-73D6-4DDB-B19C-4E7BD1D2B2EC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/umeyama_2.vcxproj">
+      <Project>D97FC97A-D6EC-409E-8581-059786607D9D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/umeyama_3.vcxproj">
+      <Project>8FC2E451-05FC-46AA-B0E3-968258CEB064</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/umeyama_4.vcxproj">
+      <Project>8E604C49-7C7E-4838-9864-52994B25AC91</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/umeyama_5.vcxproj">
+      <Project>57EDB2DB-6CD3-44C8-8D66-FD2F55D642FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/umeyama_6.vcxproj">
+      <Project>195D5473-E9C1-4497-89EC-441E74ECB791</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/umeyama_7.vcxproj">
+      <Project>18B6C3E8-57B3-4762-B82D-3CAF07F06413</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/umeyama_8.vcxproj">
+      <Project>DB4C2081-32FC-4FDD-9462-65AEA0B29E44</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/unalignedassert.vcxproj">
+      <Project>C76459E4-2CE9-4325-BC12-929A542C6E95</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/unalignedcount.vcxproj">
+      <Project>F2858968-4F3A-4934-A6ED-839414D2D57E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/upperbidiagonalization_1.vcxproj">
+      <Project>469EDDFC-0D89-4A42-95F7-07E105DB1BB7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/upperbidiagonalization_2.vcxproj">
+      <Project>8A4AC16E-3138-4A88-8102-E32BAD3F7A6B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/upperbidiagonalization_3.vcxproj">
+      <Project>87EE0E62-6AB3-4B6A-B5AA-2CF983DACDBF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/upperbidiagonalization_4.vcxproj">
+      <Project>FF40DF10-8A1B-4B6B-B7C3-B45F8A23A913</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/upperbidiagonalization_5.vcxproj">
+      <Project>401FFDD3-B9D9-4CFC-9573-3356C995C5E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/upperbidiagonalization_6.vcxproj">
+      <Project>EA384D3A-8B42-4AE5-A4AD-7C15D1C132B0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/upperbidiagonalization_7.vcxproj">
+      <Project>276CD43A-6B35-4061-B947-1220E527A3F5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/vectorization_logic.vcxproj">
+      <Project>9A294CAC-B919-4C21-9330-480C6BAB2027</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/vectorwiseop_1.vcxproj">
+      <Project>26A9E4D9-94CE-4149-850F-D0876AECA7D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/vectorwiseop_2.vcxproj">
+      <Project>671198F2-55D4-4828-AD7C-EAA294BD0168</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/vectorwiseop_3.vcxproj">
+      <Project>821A637A-1A37-4122-906F-C2AD697FAC56</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/vectorwiseop_4.vcxproj">
+      <Project>35F01A4E-7EE8-408F-ABD1-DDBDA79C66F2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/vectorwiseop_5.vcxproj">
+      <Project>B6C3BD29-6201-435F-A3FF-28BB8A2A94C6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/vectorwiseop_6.vcxproj">
+      <Project>2575B69C-93DB-4367-B8C3-764E011AFF22</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/visitor_1.vcxproj">
+      <Project>D6C2288A-5DC2-4FA5-B654-E50E46F2DD91</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/visitor_10.vcxproj">
+      <Project>93D1AC1C-F5C6-4B95-ADB2-5001D3F2AD20</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/visitor_2.vcxproj">
+      <Project>2C9F8BB6-97D5-4D49-B719-3C83C370A1F2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/visitor_3.vcxproj">
+      <Project>3596543F-3E4B-4139-BBEF-0CFAF4B3D44D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/visitor_4.vcxproj">
+      <Project>65856143-2796-4A4F-B92A-FC2527BE185D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/visitor_5.vcxproj">
+      <Project>62E6DDCE-5991-4826-8D53-49D4EFAE78D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/visitor_6.vcxproj">
+      <Project>A45A2109-5E4F-41A4-822C-6C67562A1FCF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/visitor_7.vcxproj">
+      <Project>3C49A955-2B42-4CC1-A10E-7CBB9C62B168</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/visitor_8.vcxproj">
+      <Project>5ED32299-341B-4684-8D2B-F303C8DFD003</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/visitor_9.vcxproj">
+      <Project>A9D520C0-11B7-46DF-A597-B344CD72AEDD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/test/zerosized.vcxproj">
+      <Project>79C692C0-E1A5-4EAE-B87F-365669AFA9DE</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

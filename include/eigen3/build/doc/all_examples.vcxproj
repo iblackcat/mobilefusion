@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8D2BD0D1-25E4-446E-91BA-18A0BA170022}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>all_examples</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\Doxyfile.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\Doxyfile.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\eigendoxy_header.html.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\eigendoxy_footer.html.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\eigendoxy_layout.xml.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\doc\eigendoxy_layout.xml.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\Doxyfile.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\Doxyfile.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\eigendoxy_header.html.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\eigendoxy_footer.html.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\eigendoxy_layout.xml.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\doc\eigendoxy_layout.xml.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\Doxyfile.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\Doxyfile.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\eigendoxy_header.html.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\eigendoxy_footer.html.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\eigendoxy_layout.xml.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\doc\eigendoxy_layout.xml.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3 -BE:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build --check-stamp-file E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/doc/CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\CMakeLists.txt;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\Doxyfile.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\Doxyfile.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\eigendoxy_header.html.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\eigendoxy_footer.html.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\eigendoxy_layout.xml.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\unsupported\doc\eigendoxy_layout.xml.in;E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\code\c\mobilefusion\small_resolution\mobilefusion\include\eigen3\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/DenseBase_middleCols_int.vcxproj">
+      <Project>B93E6C92-7605-481F-95BA-19EC3F27AE78</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/DenseBase_middleRows_int.vcxproj">
+      <Project>BCC20FDB-BA63-42A9-A433-70A626066951</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/DenseBase_template_int_middleCols.vcxproj">
+      <Project>FF3F28DA-1DEF-40EE-AC84-E3C7719EB862</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/DenseBase_template_int_middleRows.vcxproj">
+      <Project>23F1713A-2BDC-4F53-B8EB-2BB42D27338B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/MatrixBase_cwise_const.vcxproj">
+      <Project>AEDD4AEE-35EB-4BB9-8DEE-C4C13E3D8E6D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/QuickStart_example.vcxproj">
+      <Project>D300CDF0-9439-4A02-8181-7B8CE82CB2F2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/QuickStart_example2_dynamic.vcxproj">
+      <Project>638F5FF2-CAD4-42FD-9529-0A7B5A67016A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/QuickStart_example2_fixed.vcxproj">
+      <Project>8B0549EB-CAA7-4D78-BD27-FF8981FC314E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/TemplateKeyword_flexible.vcxproj">
+      <Project>FC1DC7A6-B5E1-4569-9B1F-96B6C04F46F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/TemplateKeyword_simple.vcxproj">
+      <Project>EB7426CD-725F-4346-9225-69279598B480</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/TutorialLinAlgComputeTwice.vcxproj">
+      <Project>F327FFDB-EF9E-4CE1-8605-529DC2517DF1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/TutorialLinAlgExComputeSolveError.vcxproj">
+      <Project>7561D76B-BC94-4573-BAC8-63CF2337DBD3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/TutorialLinAlgExSolveColPivHouseholderQR.vcxproj">
+      <Project>B37FC61C-18FE-4326-8534-338F1B301379</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/TutorialLinAlgExSolveLDLT.vcxproj">
+      <Project>400F734C-F9BD-4D70-8F9D-CD84389036FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/TutorialLinAlgInverseDeterminant.vcxproj">
+      <Project>F3DDD035-4DD8-4A71-AA2E-76704D5755DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/TutorialLinAlgRankRevealing.vcxproj">
+      <Project>55DECBF8-3721-414A-B3D2-C7114E4C0429</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/TutorialLinAlgSVDSolve.vcxproj">
+      <Project>E668E79E-C901-4853-966A-5326A4E26FD3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/TutorialLinAlgSelfAdjointEigenSolver.vcxproj">
+      <Project>0427E386-836A-4BC8-9E96-3802AE7AA3FD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/TutorialLinAlgSetThreshold.vcxproj">
+      <Project>71CC8006-466C-4130-B83C-DA614062FD90</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ArrayClass_accessors.vcxproj">
+      <Project>85C744DA-073F-448A-B8E8-28802C465468</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ArrayClass_addition.vcxproj">
+      <Project>556D450A-2115-466D-8098-239122874A18</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ArrayClass_cwise_other.vcxproj">
+      <Project>A35A700D-5274-4A27-990F-733FC102B208</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ArrayClass_interop.vcxproj">
+      <Project>DFB798CD-8867-48F1-A862-C74C19C5197A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ArrayClass_interop_matrix.vcxproj">
+      <Project>281905BC-AD4A-44A3-A125-65C9E221AB43</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ArrayClass_mult.vcxproj">
+      <Project>1A888D75-6DB6-4946-803C-B84BF7E26B39</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_BlockOperations_block_assignment.vcxproj">
+      <Project>60DB58B3-3806-4989-AB1A-3A56F6A0491B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_BlockOperations_colrow.vcxproj">
+      <Project>323FB329-6118-42EF-98B3-E75862DEC3A4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_BlockOperations_corner.vcxproj">
+      <Project>BACD3B78-D151-402D-828B-31325D1E3F76</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_BlockOperations_print_block.vcxproj">
+      <Project>59CF1F18-23EF-4E83-AD21-75A63413D95A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_BlockOperations_vector.vcxproj">
+      <Project>6CA79B87-2190-49C3-83A2-FF900A675621</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_PartialLU_solve.vcxproj">
+      <Project>59F8E5C5-649F-41EC-AD7A-E0A3ED4167E6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.vcxproj">
+      <Project>5A6D8907-593B-44E6-8BAA-823A543F872E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.vcxproj">
+      <Project>1BC11825-B3D4-432E-8BA3-DDC4030FC4FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.vcxproj">
+      <Project>54B295E2-A172-437D-82DD-C3B8F17F5156</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_colwise.vcxproj">
+      <Project>3F64B775-6E7C-4E71-811F-191CD3900D76</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.vcxproj">
+      <Project>BF236F35-C528-4001-B94B-19A3C30DBFFF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.vcxproj">
+      <Project>C9153451-980C-4014-B740-E69A80A30B73</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.vcxproj">
+      <Project>ADCC782F-C217-4992-8BD3-A344B8F5A194</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_rowwise.vcxproj">
+      <Project>0F813B4F-8DAA-4735-ACD0-07F47E1E4A9F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_visitors.vcxproj">
+      <Project>9C66E9D2-A111-421F-8125-4E2466473C50</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_simple_example_dynamic_size.vcxproj">
+      <Project>39A1E7BA-FDFB-415C-9B5A-52B38AAA52DE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/Tutorial_simple_example_fixed_size.vcxproj">
+      <Project>C8D4BA7A-E93E-4EC4-ABAF-C6A1B36D8A1B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/ZERO_CHECK.vcxproj">
+      <Project>580D0ECD-03D7-46F0-A464-0696014F60AC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/class_Block.vcxproj">
+      <Project>DFACC370-E2C5-4196-9BFA-14A0099B5EAA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/class_CwiseBinaryOp.vcxproj">
+      <Project>78A185AE-32E4-4662-8F0C-79159999FAF0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/class_CwiseUnaryOp.vcxproj">
+      <Project>05CC650E-C3D2-4E14-A20E-22EE88948ABA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/class_CwiseUnaryOp_ptrfun.vcxproj">
+      <Project>5F569915-59F1-46F0-AB2A-0CE8E51DD625</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/class_FixedBlock.vcxproj">
+      <Project>E2586811-3982-43F7-AA13-A0A778CA1BE6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/class_FixedVectorBlock.vcxproj">
+      <Project>A3F1A97C-F136-4117-A5F7-3E278BAA7035</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/class_VectorBlock.vcxproj">
+      <Project>D39DCFF6-C328-4514-A895-1E25C3414395</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/function_taking_eigenbase.vcxproj">
+      <Project>5F7D6481-24FC-4FE0-A9F5-2A954C4DCFCE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/function_taking_ref.vcxproj">
+      <Project>789FC62D-97CB-4CB4-B625-A603C56B88DD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/matrixfree_cg.vcxproj">
+      <Project>B559CD4F-7181-484A-822D-3BE8EAA7245E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/tut_arithmetic_add_sub.vcxproj">
+      <Project>F690208C-4FE2-41AB-A7A0-769DA78B2CD5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/tut_arithmetic_dot_cross.vcxproj">
+      <Project>2A359F8F-3AD3-4065-A777-2845C816F4A5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/tut_arithmetic_matrix_mul.vcxproj">
+      <Project>43B336E0-0EDD-41D4-9EA3-C9D90B390691</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/tut_arithmetic_redux_basic.vcxproj">
+      <Project>52E4C573-CFBD-4F0A-9309-2C63C58066FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/tut_arithmetic_scalar_mul_div.vcxproj">
+      <Project>4ED65389-C8E2-4287-A7DD-B8F35C6F48A3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/tut_matrix_coefficient_accessors.vcxproj">
+      <Project>61924EC7-E223-44B8-BE57-188C279F4055</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/tut_matrix_resize.vcxproj">
+      <Project>19D00EA0-FD98-4D4B-840A-E0825804F681</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/build/doc/examples/tut_matrix_resize_fixed_size.vcxproj">
+      <Project>FACE9BBF-76DA-4F41-9A9E-16A4C0F84CDC</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

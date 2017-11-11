@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/conservative_resize.cpp"
+		},
+		
+		{
+			"file" : "E:/code/c/mobilefusion/small_resolution/mobilefusion/include/eigen3/test/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "BuildOfficial" ],
+		"name" : "conservative_resize_6"
+	}
+}
